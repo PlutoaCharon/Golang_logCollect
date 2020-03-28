@@ -1,0 +1,1738 @@
+2020/03/27 17:37:59.353 [D]  导入日志成功&{debug E:\\Go\\logCollect\\logAgent\\logs\\my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2020/03/27 17:37:59.360 [D]  resp from etcd:[]
+2020/03/27 17:37:59.360 [D]  resp from etcd:[]
+2020/03/27 17:37:59.361 [D]  resp from etcd:[]
+2020/03/27 17:37:59.361 [D]  resp from etcd:[]
+2020/03/27 17:37:59.362 [D]  resp from etcd:[key:"/backend/logagent/config/192.168.0.11" create_revision:6 mod_revision:12 version:7 value:"[{\"logpath\":\"E:/nginx/logs/access.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"E:/nginx/logs/error.log\",\"topic\":\"nginx_log_err\"},{\"logpath\":\"E:/nginx/logs/error2.log\",\"topic\":\"nginx_log_err2\"}]" ]
+2020/03/27 17:37:59.362 [D]  日志设置为[{E:/nginx/logs/access.log nginx_log} {E:/nginx/logs/error.log nginx_log_err} {E:/nginx/logs/error2.log nginx_log_err2}]
+2020/03/27 17:37:59.364 [D]  resp from etcd:[]
+2020/03/27 17:37:59.364 [D]  连接etcd成功
+2020/03/27 17:37:59.364 [D]  初始化etcd成功!
+2020/03/27 17:37:59.364 [D]  初始化tailf成功!
+2020/03/27 17:37:59.364 [D]  开始监控key: /backend/logagent/config/169.254.109.181
+2020/03/27 17:37:59.364 [D]  开始监控key: /backend/logagent/config/192.168.0.11
+2020/03/27 17:37:59.364 [D]  开始监控key: /backend/logagent/config/192.168.106.1
+2020/03/27 17:37:59.365 [D]  开始监控key: /backend/logagent/config/192.168.0.1
+2020/03/27 17:37:59.366 [D]  开始监控key: /backend/logagent/config/169.254.30.148
+2020/03/27 17:37:59.366 [D]  开始监控key: /backend/logagent/config/169.254.153.68
+2020/03/27 17:37:59.380 [D]  初始化Kafka producer成功,地址为: 0.0.0.0:9092
+2020/03/27 17:37:59.380 [D]  初始化Kafka成功!
+2020/03/27 17:41:38.401 [D]  read success, pid:0, offset:34208, topic:nginx_log
+
+2020/03/27 17:41:38.403 [D]  read success, pid:0, offset:34209, topic:nginx_log
+
+2020/03/28 20:25:17.581 [D]  导入日志成功&{debug E:\\Go\\logCollect\\logAgent\\logs\\my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2020/03/28 20:25:17.589 [D]  resp from etcd:[]
+2020/03/28 20:25:17.590 [D]  resp from etcd:[]
+2020/03/28 20:25:17.590 [D]  resp from etcd:[]
+2020/03/28 20:25:17.591 [D]  resp from etcd:[]
+2020/03/28 20:25:17.613 [D]  resp from etcd:[key:"/backend/logagent/config/192.168.0.11" create_revision:6 mod_revision:12 version:7 value:"[{\"logpath\":\"E:/nginx/logs/access.log\",\"topic\":\"nginx_log\"},{\"logpath\":\"E:/nginx/logs/error.log\",\"topic\":\"nginx_log_err\"},{\"logpath\":\"E:/nginx/logs/error2.log\",\"topic\":\"nginx_log_err2\"}]" ]
+2020/03/28 20:25:17.613 [D]  日志设置为[{E:/nginx/logs/access.log nginx_log} {E:/nginx/logs/error.log nginx_log_err} {E:/nginx/logs/error2.log nginx_log_err2}]
+2020/03/28 20:25:17.613 [D]  resp from etcd:[]
+2020/03/28 20:25:17.613 [D]  连接etcd成功
+2020/03/28 20:25:17.613 [D]  初始化etcd成功!
+2020/03/28 20:25:17.613 [D]  初始化tailf成功!
+2020/03/28 20:25:17.613 [D]  开始监控key: /backend/logagent/config/192.168.0.1
+2020/03/28 20:25:17.613 [D]  开始监控key: /backend/logagent/config/169.254.109.181
+2020/03/28 20:25:17.614 [D]  开始监控key: /backend/logagent/config/192.168.106.1
+2020/03/28 20:25:17.615 [D]  开始监控key: /backend/logagent/config/169.254.30.148
+2020/03/28 20:25:17.616 [D]  开始监控key: /backend/logagent/config/169.254.153.68
+2020/03/28 20:25:17.616 [D]  开始监控key: /backend/logagent/config/192.168.0.11
+2020/03/28 20:25:17.617 [D]  初始化Kafka producer成功,地址为: 0.0.0.0:9092
+2020/03/28 20:25:17.617 [D]  初始化Kafka成功!
+2020/03/28 20:26:31.675 [D]  get config from etcd ,Type: PUT, Key:/backend/logagent/config/192.168.0.11, Value:[{"logpath":"E:\\Go\\logCollect\\logAgent\\logs\\my.log","topic":"nginx_log"}]
+
+2020/03/28 20:26:31.675 [D]  get config from etcd success, [{E:\Go\logCollect\logAgent\logs\my.log nginx_log}]
+2020/03/28 20:26:31.675 [W]  tail obj 退出, 配置项为conf:{E:/nginx/logs/error2.log nginx_log_err2}
+2020/03/28 20:26:31.675 [W]  tail obj 退出, 配置项为conf:{E:/nginx/logs/access.log nginx_log}
+2020/03/28 20:26:31.675 [W]  tail obj 退出, 配置项为conf:{E:/nginx/logs/error.log nginx_log_err}
+2020/03/28 20:26:31.947 [D]  read success, pid:0, offset:34210, topic:nginx_log
+
+2020/03/28 20:26:31.948 [D]  read success, pid:0, offset:34211, topic:nginx_log
+
+2020/03/28 20:26:32.177 [D]  read success, pid:0, offset:34212, topic:nginx_log
+
+2020/03/28 20:26:32.178 [D]  read success, pid:0, offset:34213, topic:nginx_log
+
+2020/03/28 20:26:32.180 [D]  read success, pid:0, offset:34214, topic:nginx_log
+
+2020/03/28 20:26:32.180 [D]  read success, pid:0, offset:34215, topic:nginx_log
+
+2020/03/28 20:26:32.427 [D]  read success, pid:0, offset:34216, topic:nginx_log
+
+2020/03/28 20:26:32.428 [D]  read success, pid:0, offset:34217, topic:nginx_log
+
+2020/03/28 20:26:32.430 [D]  read success, pid:0, offset:34218, topic:nginx_log
+
+2020/03/28 20:26:32.432 [D]  read success, pid:0, offset:34219, topic:nginx_log
+
+2020/03/28 20:26:32.432 [D]  read success, pid:0, offset:34220, topic:nginx_log
+
+2020/03/28 20:26:32.433 [D]  read success, pid:0, offset:34221, topic:nginx_log
+
+2020/03/28 20:26:32.435 [D]  read success, pid:0, offset:34222, topic:nginx_log
+
+2020/03/28 20:26:32.436 [D]  read success, pid:0, offset:34223, topic:nginx_log
+
+2020/03/28 20:26:32.679 [D]  read success, pid:0, offset:34224, topic:nginx_log
+
+2020/03/28 20:26:32.679 [D]  read success, pid:0, offset:34225, topic:nginx_log
+
+2020/03/28 20:26:32.680 [D]  read success, pid:0, offset:34226, topic:nginx_log
+
+2020/03/28 20:26:32.681 [D]  read success, pid:0, offset:34227, topic:nginx_log
+
+2020/03/28 20:26:32.682 [D]  read success, pid:0, offset:34228, topic:nginx_log
+
+2020/03/28 20:26:32.683 [D]  read success, pid:0, offset:34229, topic:nginx_log
+
+2020/03/28 20:26:32.684 [D]  read success, pid:0, offset:34230, topic:nginx_log
+
+2020/03/28 20:26:32.684 [D]  read success, pid:0, offset:34231, topic:nginx_log
+
+2020/03/28 20:26:32.685 [D]  read success, pid:0, offset:34232, topic:nginx_log
+
+2020/03/28 20:26:32.686 [D]  read success, pid:0, offset:34233, topic:nginx_log
+
+2020/03/28 20:26:32.687 [D]  read success, pid:0, offset:34234, topic:nginx_log
+
+2020/03/28 20:26:32.688 [D]  read success, pid:0, offset:34235, topic:nginx_log
+
+2020/03/28 20:26:32.688 [D]  read success, pid:0, offset:34236, topic:nginx_log
+
+2020/03/28 20:26:32.689 [D]  read success, pid:0, offset:34237, topic:nginx_log
+
+2020/03/28 20:26:32.690 [D]  read success, pid:0, offset:34238, topic:nginx_log
+
+2020/03/28 20:26:32.691 [D]  read success, pid:0, offset:34239, topic:nginx_log
+
+2020/03/28 20:26:32.929 [D]  read success, pid:0, offset:34240, topic:nginx_log
+
+2020/03/28 20:26:32.930 [D]  read success, pid:0, offset:34241, topic:nginx_log
+
+2020/03/28 20:26:32.931 [D]  read success, pid:0, offset:34242, topic:nginx_log
+
+2020/03/28 20:26:32.932 [D]  read success, pid:0, offset:34243, topic:nginx_log
+
+2020/03/28 20:26:32.933 [D]  read success, pid:0, offset:34244, topic:nginx_log
+
+2020/03/28 20:26:32.974 [D]  read success, pid:0, offset:34245, topic:nginx_log
+
+2020/03/28 20:26:32.975 [D]  read success, pid:0, offset:34246, topic:nginx_log
+
+2020/03/28 20:26:32.976 [D]  read success, pid:0, offset:34247, topic:nginx_log
+
+2020/03/28 20:26:32.977 [D]  read success, pid:0, offset:34248, topic:nginx_log
+
+2020/03/28 20:26:32.979 [D]  read success, pid:0, offset:34249, topic:nginx_log
+
+2020/03/28 20:26:32.980 [D]  read success, pid:0, offset:34250, topic:nginx_log
+
+2020/03/28 20:26:32.980 [D]  read success, pid:0, offset:34251, topic:nginx_log
+
+2020/03/28 20:26:32.981 [D]  read success, pid:0, offset:34252, topic:nginx_log
+
+2020/03/28 20:26:32.983 [D]  read success, pid:0, offset:34253, topic:nginx_log
+
+2020/03/28 20:26:32.986 [D]  read success, pid:0, offset:34254, topic:nginx_log
+
+2020/03/28 20:26:32.991 [D]  read success, pid:0, offset:34255, topic:nginx_log
+
+2020/03/28 20:26:32.992 [D]  read success, pid:0, offset:34256, topic:nginx_log
+
+2020/03/28 20:26:32.994 [D]  read success, pid:0, offset:34257, topic:nginx_log
+
+2020/03/28 20:26:32.995 [D]  read success, pid:0, offset:34258, topic:nginx_log
+
+2020/03/28 20:26:32.997 [D]  read success, pid:0, offset:34259, topic:nginx_log
+
+2020/03/28 20:26:32.998 [D]  read success, pid:0, offset:34260, topic:nginx_log
+
+2020/03/28 20:26:32.999 [D]  read success, pid:0, offset:34261, topic:nginx_log
+
+2020/03/28 20:26:33.000 [D]  read success, pid:0, offset:34262, topic:nginx_log
+
+2020/03/28 20:26:33.002 [D]  read success, pid:0, offset:34263, topic:nginx_log
+
+2020/03/28 20:26:33.003 [D]  read success, pid:0, offset:34264, topic:nginx_log
+
+2020/03/28 20:26:33.004 [D]  read success, pid:0, offset:34265, topic:nginx_log
+
+2020/03/28 20:26:33.005 [D]  read success, pid:0, offset:34266, topic:nginx_log
+
+2020/03/28 20:26:33.007 [D]  read success, pid:0, offset:34267, topic:nginx_log
+
+2020/03/28 20:26:33.008 [D]  read success, pid:0, offset:34268, topic:nginx_log
+
+2020/03/28 20:26:33.009 [D]  read success, pid:0, offset:34269, topic:nginx_log
+
+2020/03/28 20:26:33.010 [D]  read success, pid:0, offset:34270, topic:nginx_log
+
+2020/03/28 20:26:33.012 [D]  read success, pid:0, offset:34271, topic:nginx_log
+
+2020/03/28 20:26:33.178 [D]  read success, pid:0, offset:34272, topic:nginx_log
+
+2020/03/28 20:26:33.179 [D]  read success, pid:0, offset:34273, topic:nginx_log
+
+2020/03/28 20:26:33.180 [D]  read success, pid:0, offset:34274, topic:nginx_log
+
+2020/03/28 20:26:33.181 [D]  read success, pid:0, offset:34275, topic:nginx_log
+
+2020/03/28 20:26:33.182 [D]  read success, pid:0, offset:34276, topic:nginx_log
+
+2020/03/28 20:26:33.183 [D]  read success, pid:0, offset:34277, topic:nginx_log
+
+2020/03/28 20:26:33.183 [D]  read success, pid:0, offset:34278, topic:nginx_log
+
+2020/03/28 20:26:33.184 [D]  read success, pid:0, offset:34279, topic:nginx_log
+
+2020/03/28 20:26:33.185 [D]  read success, pid:0, offset:34280, topic:nginx_log
+
+2020/03/28 20:26:33.186 [D]  read success, pid:0, offset:34281, topic:nginx_log
+
+2020/03/28 20:26:33.187 [D]  read success, pid:0, offset:34282, topic:nginx_log
+
+2020/03/28 20:26:33.190 [D]  read success, pid:0, offset:34283, topic:nginx_log
+
+2020/03/28 20:26:33.191 [D]  read success, pid:0, offset:34284, topic:nginx_log
+
+2020/03/28 20:26:33.192 [D]  read success, pid:0, offset:34285, topic:nginx_log
+
+2020/03/28 20:26:33.193 [D]  read success, pid:0, offset:34286, topic:nginx_log
+
+2020/03/28 20:26:33.194 [D]  read success, pid:0, offset:34287, topic:nginx_log
+
+2020/03/28 20:26:33.196 [D]  read success, pid:0, offset:34288, topic:nginx_log
+
+2020/03/28 20:26:33.196 [D]  read success, pid:0, offset:34289, topic:nginx_log
+
+2020/03/28 20:26:33.198 [D]  read success, pid:0, offset:34290, topic:nginx_log
+
+2020/03/28 20:26:33.199 [D]  read success, pid:0, offset:34291, topic:nginx_log
+
+2020/03/28 20:26:33.200 [D]  read success, pid:0, offset:34292, topic:nginx_log
+
+2020/03/28 20:26:33.201 [D]  read success, pid:0, offset:34293, topic:nginx_log
+
+2020/03/28 20:26:33.203 [D]  read success, pid:0, offset:34294, topic:nginx_log
+
+2020/03/28 20:26:33.204 [D]  read success, pid:0, offset:34295, topic:nginx_log
+
+2020/03/28 20:26:33.206 [D]  read success, pid:0, offset:34296, topic:nginx_log
+
+2020/03/28 20:26:33.207 [D]  read success, pid:0, offset:34297, topic:nginx_log
+
+2020/03/28 20:26:33.208 [D]  read success, pid:0, offset:34298, topic:nginx_log
+
+2020/03/28 20:26:33.209 [D]  read success, pid:0, offset:34299, topic:nginx_log
+
+2020/03/28 20:26:33.209 [D]  read success, pid:0, offset:34300, topic:nginx_log
+
+2020/03/28 20:26:33.211 [D]  read success, pid:0, offset:34301, topic:nginx_log
+
+2020/03/28 20:26:33.213 [D]  read success, pid:0, offset:34302, topic:nginx_log
+
+2020/03/28 20:26:33.214 [D]  read success, pid:0, offset:34303, topic:nginx_log
+
+2020/03/28 20:26:33.216 [D]  read success, pid:0, offset:34304, topic:nginx_log
+
+2020/03/28 20:26:33.218 [D]  read success, pid:0, offset:34305, topic:nginx_log
+
+2020/03/28 20:26:33.219 [D]  read success, pid:0, offset:34306, topic:nginx_log
+
+2020/03/28 20:26:33.219 [D]  read success, pid:0, offset:34307, topic:nginx_log
+
+2020/03/28 20:26:33.220 [D]  read success, pid:0, offset:34308, topic:nginx_log
+
+2020/03/28 20:26:33.222 [D]  read success, pid:0, offset:34309, topic:nginx_log
+
+2020/03/28 20:26:33.223 [D]  read success, pid:0, offset:34310, topic:nginx_log
+
+2020/03/28 20:26:33.224 [D]  read success, pid:0, offset:34311, topic:nginx_log
+
+2020/03/28 20:26:33.225 [D]  read success, pid:0, offset:34312, topic:nginx_log
+
+2020/03/28 20:26:33.226 [D]  read success, pid:0, offset:34313, topic:nginx_log
+
+2020/03/28 20:26:33.228 [D]  read success, pid:0, offset:34314, topic:nginx_log
+
+2020/03/28 20:26:33.230 [D]  read success, pid:0, offset:34315, topic:nginx_log
+
+2020/03/28 20:26:33.231 [D]  read success, pid:0, offset:34316, topic:nginx_log
+
+2020/03/28 20:26:33.232 [D]  read success, pid:0, offset:34317, topic:nginx_log
+
+2020/03/28 20:26:33.233 [D]  read success, pid:0, offset:34318, topic:nginx_log
+
+2020/03/28 20:26:33.234 [D]  read success, pid:0, offset:34319, topic:nginx_log
+
+2020/03/28 20:26:33.235 [D]  read success, pid:0, offset:34320, topic:nginx_log
+
+2020/03/28 20:26:33.236 [D]  read success, pid:0, offset:34321, topic:nginx_log
+
+2020/03/28 20:26:33.237 [D]  read success, pid:0, offset:34322, topic:nginx_log
+
+2020/03/28 20:26:33.239 [D]  read success, pid:0, offset:34323, topic:nginx_log
+
+2020/03/28 20:26:33.240 [D]  read success, pid:0, offset:34324, topic:nginx_log
+
+2020/03/28 20:26:33.241 [D]  read success, pid:0, offset:34325, topic:nginx_log
+
+2020/03/28 20:26:33.241 [D]  read success, pid:0, offset:34326, topic:nginx_log
+
+2020/03/28 20:26:33.242 [D]  read success, pid:0, offset:34327, topic:nginx_log
+
+2020/03/28 20:26:33.243 [D]  read success, pid:0, offset:34328, topic:nginx_log
+
+2020/03/28 20:26:33.245 [D]  read success, pid:0, offset:34329, topic:nginx_log
+
+2020/03/28 20:26:33.246 [D]  read success, pid:0, offset:34330, topic:nginx_log
+
+2020/03/28 20:26:33.247 [D]  read success, pid:0, offset:34331, topic:nginx_log
+
+2020/03/28 20:26:33.248 [D]  read success, pid:0, offset:34332, topic:nginx_log
+
+2020/03/28 20:26:33.250 [D]  read success, pid:0, offset:34333, topic:nginx_log
+
+2020/03/28 20:26:33.251 [D]  read success, pid:0, offset:34334, topic:nginx_log
+
+2020/03/28 20:26:33.253 [D]  read success, pid:0, offset:34335, topic:nginx_log
+
+2020/03/28 20:26:33.429 [D]  read success, pid:0, offset:34336, topic:nginx_log
+
+2020/03/28 20:26:33.430 [D]  read success, pid:0, offset:34337, topic:nginx_log
+
+2020/03/28 20:26:33.431 [D]  read success, pid:0, offset:34338, topic:nginx_log
+
+2020/03/28 20:26:33.432 [D]  read success, pid:0, offset:34339, topic:nginx_log
+
+2020/03/28 20:26:33.433 [D]  read success, pid:0, offset:34340, topic:nginx_log
+
+2020/03/28 20:26:33.434 [D]  read success, pid:0, offset:34341, topic:nginx_log
+
+2020/03/28 20:26:33.435 [D]  read success, pid:0, offset:34342, topic:nginx_log
+
+2020/03/28 20:26:33.436 [D]  read success, pid:0, offset:34343, topic:nginx_log
+
+2020/03/28 20:26:33.437 [D]  read success, pid:0, offset:34344, topic:nginx_log
+
+2020/03/28 20:26:33.438 [D]  read success, pid:0, offset:34345, topic:nginx_log
+
+2020/03/28 20:26:33.438 [D]  read success, pid:0, offset:34346, topic:nginx_log
+
+2020/03/28 20:26:33.439 [D]  read success, pid:0, offset:34347, topic:nginx_log
+
+2020/03/28 20:26:33.440 [D]  read success, pid:0, offset:34348, topic:nginx_log
+
+2020/03/28 20:26:33.441 [D]  read success, pid:0, offset:34349, topic:nginx_log
+
+2020/03/28 20:26:33.442 [D]  read success, pid:0, offset:34350, topic:nginx_log
+
+2020/03/28 20:26:33.443 [D]  read success, pid:0, offset:34351, topic:nginx_log
+
+2020/03/28 20:26:33.444 [D]  read success, pid:0, offset:34352, topic:nginx_log
+
+2020/03/28 20:26:33.445 [D]  read success, pid:0, offset:34353, topic:nginx_log
+
+2020/03/28 20:26:33.446 [D]  read success, pid:0, offset:34354, topic:nginx_log
+
+2020/03/28 20:26:33.447 [D]  read success, pid:0, offset:34355, topic:nginx_log
+
+2020/03/28 20:26:33.448 [D]  read success, pid:0, offset:34356, topic:nginx_log
+
+2020/03/28 20:26:33.449 [D]  read success, pid:0, offset:34357, topic:nginx_log
+
+2020/03/28 20:26:33.450 [D]  read success, pid:0, offset:34358, topic:nginx_log
+
+2020/03/28 20:26:33.451 [D]  read success, pid:0, offset:34359, topic:nginx_log
+
+2020/03/28 20:26:33.451 [D]  read success, pid:0, offset:34360, topic:nginx_log
+
+2020/03/28 20:26:33.452 [D]  read success, pid:0, offset:34361, topic:nginx_log
+
+2020/03/28 20:26:33.453 [D]  read success, pid:0, offset:34362, topic:nginx_log
+
+2020/03/28 20:26:33.454 [D]  read success, pid:0, offset:34363, topic:nginx_log
+
+2020/03/28 20:26:33.455 [D]  read success, pid:0, offset:34364, topic:nginx_log
+
+2020/03/28 20:26:33.456 [D]  read success, pid:0, offset:34365, topic:nginx_log
+
+2020/03/28 20:26:33.457 [D]  read success, pid:0, offset:34366, topic:nginx_log
+
+2020/03/28 20:26:33.458 [D]  read success, pid:0, offset:34367, topic:nginx_log
+
+2020/03/28 20:26:33.459 [D]  read success, pid:0, offset:34368, topic:nginx_log
+
+2020/03/28 20:26:33.460 [D]  read success, pid:0, offset:34369, topic:nginx_log
+
+2020/03/28 20:26:33.461 [D]  read success, pid:0, offset:34370, topic:nginx_log
+
+2020/03/28 20:26:33.462 [D]  read success, pid:0, offset:34371, topic:nginx_log
+
+2020/03/28 20:26:33.464 [D]  read success, pid:0, offset:34372, topic:nginx_log
+
+2020/03/28 20:26:33.465 [D]  read success, pid:0, offset:34373, topic:nginx_log
+
+2020/03/28 20:26:33.465 [D]  read success, pid:0, offset:34374, topic:nginx_log
+
+2020/03/28 20:26:33.467 [D]  read success, pid:0, offset:34375, topic:nginx_log
+
+2020/03/28 20:26:33.467 [D]  read success, pid:0, offset:34376, topic:nginx_log
+
+2020/03/28 20:26:33.468 [D]  read success, pid:0, offset:34377, topic:nginx_log
+
+2020/03/28 20:26:33.469 [D]  read success, pid:0, offset:34378, topic:nginx_log
+
+2020/03/28 20:26:33.470 [D]  read success, pid:0, offset:34379, topic:nginx_log
+
+2020/03/28 20:26:33.471 [D]  read success, pid:0, offset:34380, topic:nginx_log
+
+2020/03/28 20:26:33.472 [D]  read success, pid:0, offset:34381, topic:nginx_log
+
+2020/03/28 20:26:33.472 [D]  read success, pid:0, offset:34382, topic:nginx_log
+
+2020/03/28 20:26:33.473 [D]  read success, pid:0, offset:34383, topic:nginx_log
+
+2020/03/28 20:26:33.474 [D]  read success, pid:0, offset:34384, topic:nginx_log
+
+2020/03/28 20:26:33.474 [D]  read success, pid:0, offset:34385, topic:nginx_log
+
+2020/03/28 20:26:33.475 [D]  read success, pid:0, offset:34386, topic:nginx_log
+
+2020/03/28 20:26:33.476 [D]  read success, pid:0, offset:34387, topic:nginx_log
+
+2020/03/28 20:26:33.477 [D]  read success, pid:0, offset:34388, topic:nginx_log
+
+2020/03/28 20:26:33.478 [D]  read success, pid:0, offset:34389, topic:nginx_log
+
+2020/03/28 20:26:33.479 [D]  read success, pid:0, offset:34390, topic:nginx_log
+
+2020/03/28 20:26:33.480 [D]  read success, pid:0, offset:34391, topic:nginx_log
+
+2020/03/28 20:26:33.480 [D]  read success, pid:0, offset:34392, topic:nginx_log
+
+2020/03/28 20:26:33.481 [D]  read success, pid:0, offset:34393, topic:nginx_log
+
+2020/03/28 20:26:33.482 [D]  read success, pid:0, offset:34394, topic:nginx_log
+
+2020/03/28 20:26:33.482 [D]  read success, pid:0, offset:34395, topic:nginx_log
+
+2020/03/28 20:26:33.483 [D]  read success, pid:0, offset:34396, topic:nginx_log
+
+2020/03/28 20:26:33.485 [D]  read success, pid:0, offset:34397, topic:nginx_log
+
+2020/03/28 20:26:33.485 [D]  read success, pid:0, offset:34398, topic:nginx_log
+
+2020/03/28 20:26:33.486 [D]  read success, pid:0, offset:34399, topic:nginx_log
+
+2020/03/28 20:26:33.487 [D]  read success, pid:0, offset:34400, topic:nginx_log
+
+2020/03/28 20:26:33.488 [D]  read success, pid:0, offset:34401, topic:nginx_log
+
+2020/03/28 20:26:33.489 [D]  read success, pid:0, offset:34402, topic:nginx_log
+
+2020/03/28 20:26:33.490 [D]  read success, pid:0, offset:34403, topic:nginx_log
+
+2020/03/28 20:26:33.491 [D]  read success, pid:0, offset:34404, topic:nginx_log
+
+2020/03/28 20:26:33.491 [D]  read success, pid:0, offset:34405, topic:nginx_log
+
+2020/03/28 20:26:33.492 [D]  read success, pid:0, offset:34406, topic:nginx_log
+
+2020/03/28 20:26:33.493 [D]  read success, pid:0, offset:34407, topic:nginx_log
+
+2020/03/28 20:26:33.494 [D]  read success, pid:0, offset:34408, topic:nginx_log
+
+2020/03/28 20:26:33.495 [D]  read success, pid:0, offset:34409, topic:nginx_log
+
+2020/03/28 20:26:33.496 [D]  read success, pid:0, offset:34410, topic:nginx_log
+
+2020/03/28 20:26:33.496 [D]  read success, pid:0, offset:34411, topic:nginx_log
+
+2020/03/28 20:26:33.497 [D]  read success, pid:0, offset:34412, topic:nginx_log
+
+2020/03/28 20:26:33.498 [D]  read success, pid:0, offset:34413, topic:nginx_log
+
+2020/03/28 20:26:33.499 [D]  read success, pid:0, offset:34414, topic:nginx_log
+
+2020/03/28 20:26:33.499 [D]  read success, pid:0, offset:34415, topic:nginx_log
+
+2020/03/28 20:26:33.500 [D]  read success, pid:0, offset:34416, topic:nginx_log
+
+2020/03/28 20:26:33.501 [D]  read success, pid:0, offset:34417, topic:nginx_log
+
+2020/03/28 20:26:33.502 [D]  read success, pid:0, offset:34418, topic:nginx_log
+
+2020/03/28 20:26:33.503 [D]  read success, pid:0, offset:34419, topic:nginx_log
+
+2020/03/28 20:26:33.504 [D]  read success, pid:0, offset:34420, topic:nginx_log
+
+2020/03/28 20:26:33.505 [D]  read success, pid:0, offset:34421, topic:nginx_log
+
+2020/03/28 20:26:33.505 [D]  read success, pid:0, offset:34422, topic:nginx_log
+
+2020/03/28 20:26:33.506 [D]  read success, pid:0, offset:34423, topic:nginx_log
+
+2020/03/28 20:26:33.507 [D]  read success, pid:0, offset:34424, topic:nginx_log
+
+2020/03/28 20:26:33.508 [D]  read success, pid:0, offset:34425, topic:nginx_log
+
+2020/03/28 20:26:33.509 [D]  read success, pid:0, offset:34426, topic:nginx_log
+
+2020/03/28 20:26:33.510 [D]  read success, pid:0, offset:34427, topic:nginx_log
+
+2020/03/28 20:26:33.511 [D]  read success, pid:0, offset:34428, topic:nginx_log
+
+2020/03/28 20:26:33.512 [D]  read success, pid:0, offset:34429, topic:nginx_log
+
+2020/03/28 20:26:33.513 [D]  read success, pid:0, offset:34430, topic:nginx_log
+
+2020/03/28 20:26:33.513 [D]  read success, pid:0, offset:34431, topic:nginx_log
+
+2020/03/28 20:26:33.514 [D]  read success, pid:0, offset:34432, topic:nginx_log
+
+2020/03/28 20:26:33.515 [D]  read success, pid:0, offset:34433, topic:nginx_log
+
+2020/03/28 20:26:33.517 [D]  read success, pid:0, offset:34434, topic:nginx_log
+
+2020/03/28 20:26:33.518 [D]  read success, pid:0, offset:34435, topic:nginx_log
+
+2020/03/28 20:26:33.519 [D]  read success, pid:0, offset:34436, topic:nginx_log
+
+2020/03/28 20:26:33.520 [D]  read success, pid:0, offset:34437, topic:nginx_log
+
+2020/03/28 20:26:33.521 [D]  read success, pid:0, offset:34438, topic:nginx_log
+
+2020/03/28 20:26:33.522 [D]  read success, pid:0, offset:34439, topic:nginx_log
+
+2020/03/28 20:26:33.523 [D]  read success, pid:0, offset:34440, topic:nginx_log
+
+2020/03/28 20:26:33.524 [D]  read success, pid:0, offset:34441, topic:nginx_log
+
+2020/03/28 20:26:33.525 [D]  read success, pid:0, offset:34442, topic:nginx_log
+
+2020/03/28 20:26:33.526 [D]  read success, pid:0, offset:34443, topic:nginx_log
+
+2020/03/28 20:26:33.527 [D]  read success, pid:0, offset:34444, topic:nginx_log
+
+2020/03/28 20:26:33.528 [D]  read success, pid:0, offset:34445, topic:nginx_log
+
+2020/03/28 20:26:33.529 [D]  read success, pid:0, offset:34446, topic:nginx_log
+
+2020/03/28 20:26:33.529 [D]  read success, pid:0, offset:34447, topic:nginx_log
+
+2020/03/28 20:26:33.530 [D]  read success, pid:0, offset:34448, topic:nginx_log
+
+2020/03/28 20:26:33.531 [D]  read success, pid:0, offset:34449, topic:nginx_log
+
+2020/03/28 20:26:33.532 [D]  read success, pid:0, offset:34450, topic:nginx_log
+
+2020/03/28 20:26:33.533 [D]  read success, pid:0, offset:34451, topic:nginx_log
+
+2020/03/28 20:26:33.534 [D]  read success, pid:0, offset:34452, topic:nginx_log
+
+2020/03/28 20:26:33.534 [D]  read success, pid:0, offset:34453, topic:nginx_log
+
+2020/03/28 20:26:33.535 [D]  read success, pid:0, offset:34454, topic:nginx_log
+
+2020/03/28 20:26:33.536 [D]  read success, pid:0, offset:34455, topic:nginx_log
+
+2020/03/28 20:26:33.537 [D]  read success, pid:0, offset:34456, topic:nginx_log
+
+2020/03/28 20:26:33.538 [D]  read success, pid:0, offset:34457, topic:nginx_log
+
+2020/03/28 20:26:33.538 [D]  read success, pid:0, offset:34458, topic:nginx_log
+
+2020/03/28 20:26:33.539 [D]  read success, pid:0, offset:34459, topic:nginx_log
+
+2020/03/28 20:26:33.540 [D]  read success, pid:0, offset:34460, topic:nginx_log
+
+2020/03/28 20:26:33.541 [D]  read success, pid:0, offset:34461, topic:nginx_log
+
+2020/03/28 20:26:33.542 [D]  read success, pid:0, offset:34462, topic:nginx_log
+
+2020/03/28 20:26:33.543 [D]  read success, pid:0, offset:34463, topic:nginx_log
+
+2020/03/28 20:26:33.544 [D]  read success, pid:0, offset:34464, topic:nginx_log
+
+2020/03/28 20:26:33.545 [D]  read success, pid:0, offset:34465, topic:nginx_log
+
+2020/03/28 20:26:33.547 [D]  read success, pid:0, offset:34466, topic:nginx_log
+
+2020/03/28 20:26:33.548 [D]  read success, pid:0, offset:34467, topic:nginx_log
+
+2020/03/28 20:26:33.548 [D]  read success, pid:0, offset:34468, topic:nginx_log
+
+2020/03/28 20:26:33.549 [D]  read success, pid:0, offset:34469, topic:nginx_log
+
+2020/03/28 20:26:33.551 [D]  read success, pid:0, offset:34470, topic:nginx_log
+
+2020/03/28 20:26:33.552 [D]  read success, pid:0, offset:34471, topic:nginx_log
+
+2020/03/28 20:26:33.553 [D]  read success, pid:0, offset:34472, topic:nginx_log
+
+2020/03/28 20:26:33.553 [D]  read success, pid:0, offset:34473, topic:nginx_log
+
+2020/03/28 20:26:33.555 [D]  read success, pid:0, offset:34474, topic:nginx_log
+
+2020/03/28 20:26:33.556 [D]  read success, pid:0, offset:34475, topic:nginx_log
+
+2020/03/28 20:26:33.557 [D]  read success, pid:0, offset:34476, topic:nginx_log
+
+2020/03/28 20:26:33.558 [D]  read success, pid:0, offset:34477, topic:nginx_log
+
+2020/03/28 20:26:33.559 [D]  read success, pid:0, offset:34478, topic:nginx_log
+
+2020/03/28 20:26:33.560 [D]  read success, pid:0, offset:34479, topic:nginx_log
+
+2020/03/28 20:26:33.562 [D]  read success, pid:0, offset:34480, topic:nginx_log
+
+2020/03/28 20:26:33.563 [D]  read success, pid:0, offset:34481, topic:nginx_log
+
+2020/03/28 20:26:33.563 [D]  read success, pid:0, offset:34482, topic:nginx_log
+
+2020/03/28 20:26:33.564 [D]  read success, pid:0, offset:34483, topic:nginx_log
+
+2020/03/28 20:26:33.565 [D]  read success, pid:0, offset:34484, topic:nginx_log
+
+2020/03/28 20:26:33.566 [D]  read success, pid:0, offset:34485, topic:nginx_log
+
+2020/03/28 20:26:33.567 [D]  read success, pid:0, offset:34486, topic:nginx_log
+
+2020/03/28 20:26:33.568 [D]  read success, pid:0, offset:34487, topic:nginx_log
+
+2020/03/28 20:26:33.569 [D]  read success, pid:0, offset:34488, topic:nginx_log
+
+2020/03/28 20:26:33.570 [D]  read success, pid:0, offset:34489, topic:nginx_log
+
+2020/03/28 20:26:33.571 [D]  read success, pid:0, offset:34490, topic:nginx_log
+
+2020/03/28 20:26:33.571 [D]  read success, pid:0, offset:34491, topic:nginx_log
+
+2020/03/28 20:26:33.572 [D]  read success, pid:0, offset:34492, topic:nginx_log
+
+2020/03/28 20:26:33.573 [D]  read success, pid:0, offset:34493, topic:nginx_log
+
+2020/03/28 20:26:33.574 [D]  read success, pid:0, offset:34494, topic:nginx_log
+
+2020/03/28 20:26:33.575 [D]  read success, pid:0, offset:34495, topic:nginx_log
+
+2020/03/28 20:26:33.576 [D]  read success, pid:0, offset:34496, topic:nginx_log
+
+2020/03/28 20:26:33.576 [D]  read success, pid:0, offset:34497, topic:nginx_log
+
+2020/03/28 20:26:33.578 [D]  read success, pid:0, offset:34498, topic:nginx_log
+
+2020/03/28 20:26:33.579 [D]  read success, pid:0, offset:34499, topic:nginx_log
+
+2020/03/28 20:26:33.580 [D]  read success, pid:0, offset:34500, topic:nginx_log
+
+2020/03/28 20:26:33.582 [D]  read success, pid:0, offset:34501, topic:nginx_log
+
+2020/03/28 20:26:33.583 [D]  read success, pid:0, offset:34502, topic:nginx_log
+
+2020/03/28 20:26:33.584 [D]  read success, pid:0, offset:34503, topic:nginx_log
+
+2020/03/28 20:26:33.585 [D]  read success, pid:0, offset:34504, topic:nginx_log
+
+2020/03/28 20:26:33.586 [D]  read success, pid:0, offset:34505, topic:nginx_log
+
+2020/03/28 20:26:33.587 [D]  read success, pid:0, offset:34506, topic:nginx_log
+
+2020/03/28 20:26:33.588 [D]  read success, pid:0, offset:34507, topic:nginx_log
+
+2020/03/28 20:26:33.589 [D]  read success, pid:0, offset:34508, topic:nginx_log
+
+2020/03/28 20:26:33.590 [D]  read success, pid:0, offset:34509, topic:nginx_log
+
+2020/03/28 20:26:33.591 [D]  read success, pid:0, offset:34510, topic:nginx_log
+
+2020/03/28 20:26:33.591 [D]  read success, pid:0, offset:34511, topic:nginx_log
+
+2020/03/28 20:26:33.592 [D]  read success, pid:0, offset:34512, topic:nginx_log
+
+2020/03/28 20:26:33.593 [D]  read success, pid:0, offset:34513, topic:nginx_log
+
+2020/03/28 20:26:33.594 [D]  read success, pid:0, offset:34514, topic:nginx_log
+
+2020/03/28 20:26:33.596 [D]  read success, pid:0, offset:34515, topic:nginx_log
+
+2020/03/28 20:26:33.597 [D]  read success, pid:0, offset:34516, topic:nginx_log
+
+2020/03/28 20:26:33.598 [D]  read success, pid:0, offset:34517, topic:nginx_log
+
+2020/03/28 20:26:33.599 [D]  read success, pid:0, offset:34518, topic:nginx_log
+
+2020/03/28 20:26:33.600 [D]  read success, pid:0, offset:34519, topic:nginx_log
+
+2020/03/28 20:26:33.600 [D]  read success, pid:0, offset:34520, topic:nginx_log
+
+2020/03/28 20:26:33.601 [D]  read success, pid:0, offset:34521, topic:nginx_log
+
+2020/03/28 20:26:33.602 [D]  read success, pid:0, offset:34522, topic:nginx_log
+
+2020/03/28 20:26:33.602 [D]  read success, pid:0, offset:34523, topic:nginx_log
+
+2020/03/28 20:26:33.603 [D]  read success, pid:0, offset:34524, topic:nginx_log
+
+2020/03/28 20:26:33.603 [D]  read success, pid:0, offset:34525, topic:nginx_log
+
+2020/03/28 20:26:33.604 [D]  read success, pid:0, offset:34526, topic:nginx_log
+
+2020/03/28 20:26:33.605 [D]  read success, pid:0, offset:34527, topic:nginx_log
+
+2020/03/28 20:26:33.607 [D]  read success, pid:0, offset:34528, topic:nginx_log
+
+2020/03/28 20:26:33.608 [D]  read success, pid:0, offset:34529, topic:nginx_log
+
+2020/03/28 20:26:33.609 [D]  read success, pid:0, offset:34530, topic:nginx_log
+
+2020/03/28 20:26:33.611 [D]  read success, pid:0, offset:34531, topic:nginx_log
+
+2020/03/28 20:26:33.612 [D]  read success, pid:0, offset:34532, topic:nginx_log
+
+2020/03/28 20:26:33.614 [D]  read success, pid:0, offset:34533, topic:nginx_log
+
+2020/03/28 20:26:33.615 [D]  read success, pid:0, offset:34534, topic:nginx_log
+
+2020/03/28 20:26:33.616 [D]  read success, pid:0, offset:34535, topic:nginx_log
+
+2020/03/28 20:26:33.617 [D]  read success, pid:0, offset:34536, topic:nginx_log
+
+2020/03/28 20:26:33.618 [D]  read success, pid:0, offset:34537, topic:nginx_log
+
+2020/03/28 20:26:33.619 [D]  read success, pid:0, offset:34538, topic:nginx_log
+
+2020/03/28 20:26:33.620 [D]  read success, pid:0, offset:34539, topic:nginx_log
+
+2020/03/28 20:26:33.621 [D]  read success, pid:0, offset:34540, topic:nginx_log
+
+2020/03/28 20:26:33.623 [D]  read success, pid:0, offset:34541, topic:nginx_log
+
+2020/03/28 20:26:33.624 [D]  read success, pid:0, offset:34542, topic:nginx_log
+
+2020/03/28 20:26:33.624 [D]  read success, pid:0, offset:34543, topic:nginx_log
+
+2020/03/28 20:26:33.625 [D]  read success, pid:0, offset:34544, topic:nginx_log
+
+2020/03/28 20:26:33.626 [D]  read success, pid:0, offset:34545, topic:nginx_log
+
+2020/03/28 20:26:33.628 [D]  read success, pid:0, offset:34546, topic:nginx_log
+
+2020/03/28 20:26:33.629 [D]  read success, pid:0, offset:34547, topic:nginx_log
+
+2020/03/28 20:26:33.630 [D]  read success, pid:0, offset:34548, topic:nginx_log
+
+2020/03/28 20:26:33.631 [D]  read success, pid:0, offset:34549, topic:nginx_log
+
+2020/03/28 20:26:33.632 [D]  read success, pid:0, offset:34550, topic:nginx_log
+
+2020/03/28 20:26:33.632 [D]  read success, pid:0, offset:34551, topic:nginx_log
+
+2020/03/28 20:26:33.633 [D]  read success, pid:0, offset:34552, topic:nginx_log
+
+2020/03/28 20:26:33.633 [D]  read success, pid:0, offset:34553, topic:nginx_log
+
+2020/03/28 20:26:33.634 [D]  read success, pid:0, offset:34554, topic:nginx_log
+
+2020/03/28 20:26:33.635 [D]  read success, pid:0, offset:34555, topic:nginx_log
+
+2020/03/28 20:26:33.636 [D]  read success, pid:0, offset:34556, topic:nginx_log
+
+2020/03/28 20:26:33.636 [D]  read success, pid:0, offset:34557, topic:nginx_log
+
+2020/03/28 20:26:33.637 [D]  read success, pid:0, offset:34558, topic:nginx_log
+
+2020/03/28 20:26:33.638 [D]  read success, pid:0, offset:34559, topic:nginx_log
+
+2020/03/28 20:26:33.639 [D]  read success, pid:0, offset:34560, topic:nginx_log
+
+2020/03/28 20:26:33.639 [D]  read success, pid:0, offset:34561, topic:nginx_log
+
+2020/03/28 20:26:33.640 [D]  read success, pid:0, offset:34562, topic:nginx_log
+
+2020/03/28 20:26:33.640 [D]  read success, pid:0, offset:34563, topic:nginx_log
+
+2020/03/28 20:26:33.641 [D]  read success, pid:0, offset:34564, topic:nginx_log
+
+2020/03/28 20:26:33.647 [D]  read success, pid:0, offset:34565, topic:nginx_log
+
+2020/03/28 20:26:33.648 [D]  read success, pid:0, offset:34566, topic:nginx_log
+
+2020/03/28 20:26:33.649 [D]  read success, pid:0, offset:34567, topic:nginx_log
+
+2020/03/28 20:26:33.649 [D]  read success, pid:0, offset:34568, topic:nginx_log
+
+2020/03/28 20:26:33.650 [D]  read success, pid:0, offset:34569, topic:nginx_log
+
+2020/03/28 20:26:33.651 [D]  read success, pid:0, offset:34570, topic:nginx_log
+
+2020/03/28 20:26:33.652 [D]  read success, pid:0, offset:34571, topic:nginx_log
+
+2020/03/28 20:26:33.652 [D]  read success, pid:0, offset:34572, topic:nginx_log
+
+2020/03/28 20:26:33.653 [D]  read success, pid:0, offset:34573, topic:nginx_log
+
+2020/03/28 20:26:33.654 [D]  read success, pid:0, offset:34574, topic:nginx_log
+
+2020/03/28 20:26:33.655 [D]  read success, pid:0, offset:34575, topic:nginx_log
+
+2020/03/28 20:26:33.656 [D]  read success, pid:0, offset:34576, topic:nginx_log
+
+2020/03/28 20:26:33.656 [D]  read success, pid:0, offset:34577, topic:nginx_log
+
+2020/03/28 20:26:33.657 [D]  read success, pid:0, offset:34578, topic:nginx_log
+
+2020/03/28 20:26:33.659 [D]  read success, pid:0, offset:34579, topic:nginx_log
+
+2020/03/28 20:26:33.660 [D]  read success, pid:0, offset:34580, topic:nginx_log
+
+2020/03/28 20:26:33.663 [D]  read success, pid:0, offset:34581, topic:nginx_log
+
+2020/03/28 20:26:33.664 [D]  read success, pid:0, offset:34582, topic:nginx_log
+
+2020/03/28 20:26:33.665 [D]  read success, pid:0, offset:34583, topic:nginx_log
+
+2020/03/28 20:26:33.666 [D]  read success, pid:0, offset:34584, topic:nginx_log
+
+2020/03/28 20:26:33.667 [D]  read success, pid:0, offset:34585, topic:nginx_log
+
+2020/03/28 20:26:33.667 [D]  read success, pid:0, offset:34586, topic:nginx_log
+
+2020/03/28 20:26:33.669 [D]  read success, pid:0, offset:34587, topic:nginx_log
+
+2020/03/28 20:26:33.669 [D]  read success, pid:0, offset:34588, topic:nginx_log
+
+2020/03/28 20:26:33.672 [D]  read success, pid:0, offset:34589, topic:nginx_log
+
+2020/03/28 20:26:33.674 [D]  read success, pid:0, offset:34590, topic:nginx_log
+
+2020/03/28 20:26:33.676 [D]  read success, pid:0, offset:34591, topic:nginx_log
+
+2020/03/28 20:26:33.680 [D]  read success, pid:0, offset:34592, topic:nginx_log
+
+2020/03/28 20:26:33.681 [D]  read success, pid:0, offset:34593, topic:nginx_log
+
+2020/03/28 20:26:33.681 [D]  read success, pid:0, offset:34594, topic:nginx_log
+
+2020/03/28 20:26:33.682 [D]  read success, pid:0, offset:34595, topic:nginx_log
+
+2020/03/28 20:26:33.682 [D]  read success, pid:0, offset:34596, topic:nginx_log
+
+2020/03/28 20:26:33.683 [D]  read success, pid:0, offset:34597, topic:nginx_log
+
+2020/03/28 20:26:33.684 [D]  read success, pid:0, offset:34598, topic:nginx_log
+
+2020/03/28 20:26:33.684 [D]  read success, pid:0, offset:34599, topic:nginx_log
+
+2020/03/28 20:26:33.685 [D]  read success, pid:0, offset:34600, topic:nginx_log
+
+2020/03/28 20:26:33.686 [D]  read success, pid:0, offset:34601, topic:nginx_log
+
+2020/03/28 20:26:33.688 [D]  read success, pid:0, offset:34602, topic:nginx_log
+
+2020/03/28 20:26:33.690 [D]  read success, pid:0, offset:34603, topic:nginx_log
+
+2020/03/28 20:26:33.690 [D]  read success, pid:0, offset:34604, topic:nginx_log
+
+2020/03/28 20:26:33.691 [D]  read success, pid:0, offset:34605, topic:nginx_log
+
+2020/03/28 20:26:33.692 [D]  read success, pid:0, offset:34606, topic:nginx_log
+
+2020/03/28 20:26:33.692 [D]  read success, pid:0, offset:34607, topic:nginx_log
+
+2020/03/28 20:26:33.693 [D]  read success, pid:0, offset:34608, topic:nginx_log
+
+2020/03/28 20:26:33.694 [D]  read success, pid:0, offset:34609, topic:nginx_log
+
+2020/03/28 20:26:33.695 [D]  read success, pid:0, offset:34610, topic:nginx_log
+
+2020/03/28 20:26:33.696 [D]  read success, pid:0, offset:34611, topic:nginx_log
+
+2020/03/28 20:26:33.697 [D]  read success, pid:0, offset:34612, topic:nginx_log
+
+2020/03/28 20:26:33.697 [D]  read success, pid:0, offset:34613, topic:nginx_log
+
+2020/03/28 20:26:33.698 [D]  read success, pid:0, offset:34614, topic:nginx_log
+
+2020/03/28 20:26:33.699 [D]  read success, pid:0, offset:34615, topic:nginx_log
+
+2020/03/28 20:26:33.699 [D]  read success, pid:0, offset:34616, topic:nginx_log
+
+2020/03/28 20:26:33.700 [D]  read success, pid:0, offset:34617, topic:nginx_log
+
+2020/03/28 20:26:33.701 [D]  read success, pid:0, offset:34618, topic:nginx_log
+
+2020/03/28 20:26:33.701 [D]  read success, pid:0, offset:34619, topic:nginx_log
+
+2020/03/28 20:26:33.702 [D]  read success, pid:0, offset:34620, topic:nginx_log
+
+2020/03/28 20:26:33.702 [D]  read success, pid:0, offset:34621, topic:nginx_log
+
+2020/03/28 20:26:33.704 [D]  read success, pid:0, offset:34622, topic:nginx_log
+
+2020/03/28 20:26:33.704 [D]  read success, pid:0, offset:34623, topic:nginx_log
+
+2020/03/28 20:26:33.705 [D]  read success, pid:0, offset:34624, topic:nginx_log
+
+2020/03/28 20:26:33.706 [D]  read success, pid:0, offset:34625, topic:nginx_log
+
+2020/03/28 20:26:33.706 [D]  read success, pid:0, offset:34626, topic:nginx_log
+
+2020/03/28 20:26:33.707 [D]  read success, pid:0, offset:34627, topic:nginx_log
+
+2020/03/28 20:26:33.707 [D]  read success, pid:0, offset:34628, topic:nginx_log
+
+2020/03/28 20:26:33.708 [D]  read success, pid:0, offset:34629, topic:nginx_log
+
+2020/03/28 20:26:33.708 [D]  read success, pid:0, offset:34630, topic:nginx_log
+
+2020/03/28 20:26:33.709 [D]  read success, pid:0, offset:34631, topic:nginx_log
+
+2020/03/28 20:26:33.709 [D]  read success, pid:0, offset:34632, topic:nginx_log
+
+2020/03/28 20:26:33.709 [D]  read success, pid:0, offset:34633, topic:nginx_log
+
+2020/03/28 20:26:33.710 [D]  read success, pid:0, offset:34634, topic:nginx_log
+
+2020/03/28 20:26:33.710 [D]  read success, pid:0, offset:34635, topic:nginx_log
+
+2020/03/28 20:26:33.711 [D]  read success, pid:0, offset:34636, topic:nginx_log
+
+2020/03/28 20:26:33.712 [D]  read success, pid:0, offset:34637, topic:nginx_log
+
+2020/03/28 20:26:33.712 [D]  read success, pid:0, offset:34638, topic:nginx_log
+
+2020/03/28 20:26:33.713 [D]  read success, pid:0, offset:34639, topic:nginx_log
+
+2020/03/28 20:26:33.713 [D]  read success, pid:0, offset:34640, topic:nginx_log
+
+2020/03/28 20:26:33.714 [D]  read success, pid:0, offset:34641, topic:nginx_log
+
+2020/03/28 20:26:33.714 [D]  read success, pid:0, offset:34642, topic:nginx_log
+
+2020/03/28 20:26:33.715 [D]  read success, pid:0, offset:34643, topic:nginx_log
+
+2020/03/28 20:26:33.715 [D]  read success, pid:0, offset:34644, topic:nginx_log
+
+2020/03/28 20:26:33.715 [D]  read success, pid:0, offset:34645, topic:nginx_log
+
+2020/03/28 20:26:33.716 [D]  read success, pid:0, offset:34646, topic:nginx_log
+
+2020/03/28 20:26:33.716 [D]  read success, pid:0, offset:34647, topic:nginx_log
+
+2020/03/28 20:26:33.717 [D]  read success, pid:0, offset:34648, topic:nginx_log
+
+2020/03/28 20:26:33.717 [D]  read success, pid:0, offset:34649, topic:nginx_log
+
+2020/03/28 20:26:33.719 [D]  read success, pid:0, offset:34650, topic:nginx_log
+
+2020/03/28 20:26:33.719 [D]  read success, pid:0, offset:34651, topic:nginx_log
+
+2020/03/28 20:26:33.720 [D]  read success, pid:0, offset:34652, topic:nginx_log
+
+2020/03/28 20:26:33.721 [D]  read success, pid:0, offset:34653, topic:nginx_log
+
+2020/03/28 20:26:33.721 [D]  read success, pid:0, offset:34654, topic:nginx_log
+
+2020/03/28 20:26:33.722 [D]  read success, pid:0, offset:34655, topic:nginx_log
+
+2020/03/28 20:26:33.722 [D]  read success, pid:0, offset:34656, topic:nginx_log
+
+2020/03/28 20:26:33.723 [D]  read success, pid:0, offset:34657, topic:nginx_log
+
+2020/03/28 20:26:33.723 [D]  read success, pid:0, offset:34658, topic:nginx_log
+
+2020/03/28 20:26:33.724 [D]  read success, pid:0, offset:34659, topic:nginx_log
+
+2020/03/28 20:26:33.724 [D]  read success, pid:0, offset:34660, topic:nginx_log
+
+2020/03/28 20:26:33.724 [D]  read success, pid:0, offset:34661, topic:nginx_log
+
+2020/03/28 20:26:33.725 [D]  read success, pid:0, offset:34662, topic:nginx_log
+
+2020/03/28 20:26:33.725 [D]  read success, pid:0, offset:34663, topic:nginx_log
+
+2020/03/28 20:26:33.726 [D]  read success, pid:0, offset:34664, topic:nginx_log
+
+2020/03/28 20:26:33.726 [D]  read success, pid:0, offset:34665, topic:nginx_log
+
+2020/03/28 20:26:33.727 [D]  read success, pid:0, offset:34666, topic:nginx_log
+
+2020/03/28 20:26:33.727 [D]  read success, pid:0, offset:34667, topic:nginx_log
+
+2020/03/28 20:26:33.728 [D]  read success, pid:0, offset:34668, topic:nginx_log
+
+2020/03/28 20:26:33.729 [D]  read success, pid:0, offset:34669, topic:nginx_log
+
+2020/03/28 20:26:33.729 [D]  read success, pid:0, offset:34670, topic:nginx_log
+
+2020/03/28 20:26:33.730 [D]  read success, pid:0, offset:34671, topic:nginx_log
+
+2020/03/28 20:26:33.731 [D]  read success, pid:0, offset:34672, topic:nginx_log
+
+2020/03/28 20:26:33.731 [D]  read success, pid:0, offset:34673, topic:nginx_log
+
+2020/03/28 20:26:33.732 [D]  read success, pid:0, offset:34674, topic:nginx_log
+
+2020/03/28 20:26:33.732 [D]  read success, pid:0, offset:34675, topic:nginx_log
+
+2020/03/28 20:26:33.733 [D]  read success, pid:0, offset:34676, topic:nginx_log
+
+2020/03/28 20:26:33.733 [D]  read success, pid:0, offset:34677, topic:nginx_log
+
+2020/03/28 20:26:33.735 [D]  read success, pid:0, offset:34678, topic:nginx_log
+
+2020/03/28 20:26:33.735 [D]  read success, pid:0, offset:34679, topic:nginx_log
+
+2020/03/28 20:26:33.736 [D]  read success, pid:0, offset:34680, topic:nginx_log
+
+2020/03/28 20:26:33.737 [D]  read success, pid:0, offset:34681, topic:nginx_log
+
+2020/03/28 20:26:33.737 [D]  read success, pid:0, offset:34682, topic:nginx_log
+
+2020/03/28 20:26:33.738 [D]  read success, pid:0, offset:34683, topic:nginx_log
+
+2020/03/28 20:26:33.738 [D]  read success, pid:0, offset:34684, topic:nginx_log
+
+2020/03/28 20:26:33.739 [D]  read success, pid:0, offset:34685, topic:nginx_log
+
+2020/03/28 20:26:33.739 [D]  read success, pid:0, offset:34686, topic:nginx_log
+
+2020/03/28 20:26:33.740 [D]  read success, pid:0, offset:34687, topic:nginx_log
+
+2020/03/28 20:26:33.740 [D]  read success, pid:0, offset:34688, topic:nginx_log
+
+2020/03/28 20:26:33.741 [D]  read success, pid:0, offset:34689, topic:nginx_log
+
+2020/03/28 20:26:33.741 [D]  read success, pid:0, offset:34690, topic:nginx_log
+
+2020/03/28 20:26:33.741 [D]  read success, pid:0, offset:34691, topic:nginx_log
+
+2020/03/28 20:26:33.742 [D]  read success, pid:0, offset:34692, topic:nginx_log
+
+2020/03/28 20:26:33.742 [D]  read success, pid:0, offset:34693, topic:nginx_log
+
+2020/03/28 20:26:33.743 [D]  read success, pid:0, offset:34694, topic:nginx_log
+
+2020/03/28 20:26:33.743 [D]  read success, pid:0, offset:34695, topic:nginx_log
+
+2020/03/28 20:26:33.744 [D]  read success, pid:0, offset:34696, topic:nginx_log
+
+2020/03/28 20:26:33.744 [D]  read success, pid:0, offset:34697, topic:nginx_log
+
+2020/03/28 20:26:33.745 [D]  read success, pid:0, offset:34698, topic:nginx_log
+
+2020/03/28 20:26:33.745 [D]  read success, pid:0, offset:34699, topic:nginx_log
+
+2020/03/28 20:26:33.746 [D]  read success, pid:0, offset:34700, topic:nginx_log
+
+2020/03/28 20:26:33.746 [D]  read success, pid:0, offset:34701, topic:nginx_log
+
+2020/03/28 20:26:33.747 [D]  read success, pid:0, offset:34702, topic:nginx_log
+
+2020/03/28 20:26:33.747 [D]  read success, pid:0, offset:34703, topic:nginx_log
+
+2020/03/28 20:26:33.748 [D]  read success, pid:0, offset:34704, topic:nginx_log
+
+2020/03/28 20:26:33.748 [D]  read success, pid:0, offset:34705, topic:nginx_log
+
+2020/03/28 20:26:33.749 [D]  read success, pid:0, offset:34706, topic:nginx_log
+
+2020/03/28 20:26:33.749 [D]  read success, pid:0, offset:34707, topic:nginx_log
+
+2020/03/28 20:26:33.750 [D]  read success, pid:0, offset:34708, topic:nginx_log
+
+2020/03/28 20:26:33.751 [D]  read success, pid:0, offset:34709, topic:nginx_log
+
+2020/03/28 20:26:33.752 [D]  read success, pid:0, offset:34710, topic:nginx_log
+
+2020/03/28 20:26:33.752 [D]  read success, pid:0, offset:34711, topic:nginx_log
+
+2020/03/28 20:26:33.753 [D]  read success, pid:0, offset:34712, topic:nginx_log
+
+2020/03/28 20:26:33.753 [D]  read success, pid:0, offset:34713, topic:nginx_log
+
+2020/03/28 20:26:33.753 [D]  read success, pid:0, offset:34714, topic:nginx_log
+
+2020/03/28 20:26:33.754 [D]  read success, pid:0, offset:34715, topic:nginx_log
+
+2020/03/28 20:26:33.754 [D]  read success, pid:0, offset:34716, topic:nginx_log
+
+2020/03/28 20:26:33.755 [D]  read success, pid:0, offset:34717, topic:nginx_log
+
+2020/03/28 20:26:33.755 [D]  read success, pid:0, offset:34718, topic:nginx_log
+
+2020/03/28 20:26:33.756 [D]  read success, pid:0, offset:34719, topic:nginx_log
+
+2020/03/28 20:26:33.757 [D]  read success, pid:0, offset:34720, topic:nginx_log
+
+2020/03/28 20:26:33.758 [D]  read success, pid:0, offset:34721, topic:nginx_log
+
+2020/03/28 20:26:33.758 [D]  read success, pid:0, offset:34722, topic:nginx_log
+
+2020/03/28 20:26:33.759 [D]  read success, pid:0, offset:34723, topic:nginx_log
+
+2020/03/28 20:26:33.760 [D]  read success, pid:0, offset:34724, topic:nginx_log
+
+2020/03/28 20:26:33.760 [D]  read success, pid:0, offset:34725, topic:nginx_log
+
+2020/03/28 20:26:33.761 [D]  read success, pid:0, offset:34726, topic:nginx_log
+
+2020/03/28 20:26:33.762 [D]  read success, pid:0, offset:34727, topic:nginx_log
+
+2020/03/28 20:26:33.763 [D]  read success, pid:0, offset:34728, topic:nginx_log
+
+2020/03/28 20:26:33.763 [D]  read success, pid:0, offset:34729, topic:nginx_log
+
+2020/03/28 20:26:33.764 [D]  read success, pid:0, offset:34730, topic:nginx_log
+
+2020/03/28 20:26:33.764 [D]  read success, pid:0, offset:34731, topic:nginx_log
+
+2020/03/28 20:26:33.765 [D]  read success, pid:0, offset:34732, topic:nginx_log
+
+2020/03/28 20:26:33.765 [D]  read success, pid:0, offset:34733, topic:nginx_log
+
+2020/03/28 20:26:33.767 [D]  read success, pid:0, offset:34734, topic:nginx_log
+
+2020/03/28 20:26:33.768 [D]  read success, pid:0, offset:34735, topic:nginx_log
+
+2020/03/28 20:26:33.769 [D]  read success, pid:0, offset:34736, topic:nginx_log
+
+2020/03/28 20:26:33.770 [D]  read success, pid:0, offset:34737, topic:nginx_log
+
+2020/03/28 20:26:33.771 [D]  read success, pid:0, offset:34738, topic:nginx_log
+
+2020/03/28 20:26:33.771 [D]  read success, pid:0, offset:34739, topic:nginx_log
+
+2020/03/28 20:26:33.772 [D]  read success, pid:0, offset:34740, topic:nginx_log
+
+2020/03/28 20:26:33.772 [D]  read success, pid:0, offset:34741, topic:nginx_log
+
+2020/03/28 20:26:33.772 [D]  read success, pid:0, offset:34742, topic:nginx_log
+
+2020/03/28 20:26:33.773 [D]  read success, pid:0, offset:34743, topic:nginx_log
+
+2020/03/28 20:26:33.773 [D]  read success, pid:0, offset:34744, topic:nginx_log
+
+2020/03/28 20:26:33.774 [D]  read success, pid:0, offset:34745, topic:nginx_log
+
+2020/03/28 20:26:33.775 [D]  read success, pid:0, offset:34746, topic:nginx_log
+
+2020/03/28 20:26:33.776 [D]  read success, pid:0, offset:34747, topic:nginx_log
+
+2020/03/28 20:26:33.777 [D]  read success, pid:0, offset:34748, topic:nginx_log
+
+2020/03/28 20:26:33.779 [D]  read success, pid:0, offset:34749, topic:nginx_log
+
+2020/03/28 20:26:33.780 [D]  read success, pid:0, offset:34750, topic:nginx_log
+
+2020/03/28 20:26:33.780 [D]  read success, pid:0, offset:34751, topic:nginx_log
+
+2020/03/28 20:26:33.781 [D]  read success, pid:0, offset:34752, topic:nginx_log
+
+2020/03/28 20:26:33.781 [D]  read success, pid:0, offset:34753, topic:nginx_log
+
+2020/03/28 20:26:33.782 [D]  read success, pid:0, offset:34754, topic:nginx_log
+
+2020/03/28 20:26:33.783 [D]  read success, pid:0, offset:34755, topic:nginx_log
+
+2020/03/28 20:26:33.783 [D]  read success, pid:0, offset:34756, topic:nginx_log
+
+2020/03/28 20:26:33.784 [D]  read success, pid:0, offset:34757, topic:nginx_log
+
+2020/03/28 20:26:33.785 [D]  read success, pid:0, offset:34758, topic:nginx_log
+
+2020/03/28 20:26:33.786 [D]  read success, pid:0, offset:34759, topic:nginx_log
+
+2020/03/28 20:26:33.786 [D]  read success, pid:0, offset:34760, topic:nginx_log
+
+2020/03/28 20:26:33.787 [D]  read success, pid:0, offset:34761, topic:nginx_log
+
+2020/03/28 20:26:33.787 [D]  read success, pid:0, offset:34762, topic:nginx_log
+
+2020/03/28 20:26:33.787 [D]  read success, pid:0, offset:34763, topic:nginx_log
+
+2020/03/28 20:26:33.788 [D]  read success, pid:0, offset:34764, topic:nginx_log
+
+2020/03/28 20:26:33.788 [D]  read success, pid:0, offset:34765, topic:nginx_log
+
+2020/03/28 20:26:33.789 [D]  read success, pid:0, offset:34766, topic:nginx_log
+
+2020/03/28 20:26:33.789 [D]  read success, pid:0, offset:34767, topic:nginx_log
+
+2020/03/28 20:26:33.789 [D]  read success, pid:0, offset:34768, topic:nginx_log
+
+2020/03/28 20:26:33.790 [D]  read success, pid:0, offset:34769, topic:nginx_log
+
+2020/03/28 20:26:33.790 [D]  read success, pid:0, offset:34770, topic:nginx_log
+
+2020/03/28 20:26:33.791 [D]  read success, pid:0, offset:34771, topic:nginx_log
+
+2020/03/28 20:26:33.791 [D]  read success, pid:0, offset:34772, topic:nginx_log
+
+2020/03/28 20:26:33.792 [D]  read success, pid:0, offset:34773, topic:nginx_log
+
+2020/03/28 20:26:33.792 [D]  read success, pid:0, offset:34774, topic:nginx_log
+
+2020/03/28 20:26:33.793 [D]  read success, pid:0, offset:34775, topic:nginx_log
+
+2020/03/28 20:26:33.793 [D]  read success, pid:0, offset:34776, topic:nginx_log
+
+2020/03/28 20:26:33.793 [D]  read success, pid:0, offset:34777, topic:nginx_log
+
+2020/03/28 20:26:33.794 [D]  read success, pid:0, offset:34778, topic:nginx_log
+
+2020/03/28 20:26:33.794 [D]  read success, pid:0, offset:34779, topic:nginx_log
+
+2020/03/28 20:26:33.795 [D]  read success, pid:0, offset:34780, topic:nginx_log
+
+2020/03/28 20:26:33.796 [D]  read success, pid:0, offset:34781, topic:nginx_log
+
+2020/03/28 20:26:33.796 [D]  read success, pid:0, offset:34782, topic:nginx_log
+
+2020/03/28 20:26:33.797 [D]  read success, pid:0, offset:34783, topic:nginx_log
+
+2020/03/28 20:26:33.798 [D]  read success, pid:0, offset:34784, topic:nginx_log
+
+2020/03/28 20:26:33.799 [D]  read success, pid:0, offset:34785, topic:nginx_log
+
+2020/03/28 20:26:33.799 [D]  read success, pid:0, offset:34786, topic:nginx_log
+
+2020/03/28 20:26:33.800 [D]  read success, pid:0, offset:34787, topic:nginx_log
+
+2020/03/28 20:26:33.801 [D]  read success, pid:0, offset:34788, topic:nginx_log
+
+2020/03/28 20:26:33.801 [D]  read success, pid:0, offset:34789, topic:nginx_log
+
+2020/03/28 20:26:33.802 [D]  read success, pid:0, offset:34790, topic:nginx_log
+
+2020/03/28 20:26:33.802 [D]  read success, pid:0, offset:34791, topic:nginx_log
+
+2020/03/28 20:26:33.803 [D]  read success, pid:0, offset:34792, topic:nginx_log
+
+2020/03/28 20:26:33.803 [D]  read success, pid:0, offset:34793, topic:nginx_log
+
+2020/03/28 20:26:33.804 [D]  read success, pid:0, offset:34794, topic:nginx_log
+
+2020/03/28 20:26:33.804 [D]  read success, pid:0, offset:34795, topic:nginx_log
+
+2020/03/28 20:26:33.805 [D]  read success, pid:0, offset:34796, topic:nginx_log
+
+2020/03/28 20:26:33.805 [D]  read success, pid:0, offset:34797, topic:nginx_log
+
+2020/03/28 20:26:33.805 [D]  read success, pid:0, offset:34798, topic:nginx_log
+
+2020/03/28 20:26:33.806 [D]  read success, pid:0, offset:34799, topic:nginx_log
+
+2020/03/28 20:26:33.806 [D]  read success, pid:0, offset:34800, topic:nginx_log
+
+2020/03/28 20:26:33.807 [D]  read success, pid:0, offset:34801, topic:nginx_log
+
+2020/03/28 20:26:33.807 [D]  read success, pid:0, offset:34802, topic:nginx_log
+
+2020/03/28 20:26:33.808 [D]  read success, pid:0, offset:34803, topic:nginx_log
+
+2020/03/28 20:26:33.808 [D]  read success, pid:0, offset:34804, topic:nginx_log
+
+2020/03/28 20:26:33.809 [D]  read success, pid:0, offset:34805, topic:nginx_log
+
+2020/03/28 20:26:33.809 [D]  read success, pid:0, offset:34806, topic:nginx_log
+
+2020/03/28 20:26:33.810 [D]  read success, pid:0, offset:34807, topic:nginx_log
+
+2020/03/28 20:26:33.810 [D]  read success, pid:0, offset:34808, topic:nginx_log
+
+2020/03/28 20:26:33.810 [D]  read success, pid:0, offset:34809, topic:nginx_log
+
+2020/03/28 20:26:33.811 [D]  read success, pid:0, offset:34810, topic:nginx_log
+
+2020/03/28 20:26:33.811 [D]  read success, pid:0, offset:34811, topic:nginx_log
+
+2020/03/28 20:26:33.812 [D]  read success, pid:0, offset:34812, topic:nginx_log
+
+2020/03/28 20:26:33.813 [D]  read success, pid:0, offset:34813, topic:nginx_log
+
+2020/03/28 20:26:33.813 [D]  read success, pid:0, offset:34814, topic:nginx_log
+
+2020/03/28 20:26:33.814 [D]  read success, pid:0, offset:34815, topic:nginx_log
+
+2020/03/28 20:26:33.815 [D]  read success, pid:0, offset:34816, topic:nginx_log
+
+2020/03/28 20:26:33.815 [D]  read success, pid:0, offset:34817, topic:nginx_log
+
+2020/03/28 20:26:33.816 [D]  read success, pid:0, offset:34818, topic:nginx_log
+
+2020/03/28 20:26:33.816 [D]  read success, pid:0, offset:34819, topic:nginx_log
+
+2020/03/28 20:26:33.817 [D]  read success, pid:0, offset:34820, topic:nginx_log
+
+2020/03/28 20:26:33.817 [D]  read success, pid:0, offset:34821, topic:nginx_log
+
+2020/03/28 20:26:33.818 [D]  read success, pid:0, offset:34822, topic:nginx_log
+
+2020/03/28 20:26:33.818 [D]  read success, pid:0, offset:34823, topic:nginx_log
+
+2020/03/28 20:26:33.819 [D]  read success, pid:0, offset:34824, topic:nginx_log
+
+2020/03/28 20:26:33.820 [D]  read success, pid:0, offset:34825, topic:nginx_log
+
+2020/03/28 20:26:33.820 [D]  read success, pid:0, offset:34826, topic:nginx_log
+
+2020/03/28 20:26:33.821 [D]  read success, pid:0, offset:34827, topic:nginx_log
+
+2020/03/28 20:26:33.821 [D]  read success, pid:0, offset:34828, topic:nginx_log
+
+2020/03/28 20:26:33.822 [D]  read success, pid:0, offset:34829, topic:nginx_log
+
+2020/03/28 20:26:33.823 [D]  read success, pid:0, offset:34830, topic:nginx_log
+
+2020/03/28 20:26:33.823 [D]  read success, pid:0, offset:34831, topic:nginx_log
+
+2020/03/28 20:26:33.824 [D]  read success, pid:0, offset:34832, topic:nginx_log
+
+2020/03/28 20:26:33.824 [D]  read success, pid:0, offset:34833, topic:nginx_log
+
+2020/03/28 20:26:33.825 [D]  read success, pid:0, offset:34834, topic:nginx_log
+
+2020/03/28 20:26:33.826 [D]  read success, pid:0, offset:34835, topic:nginx_log
+
+2020/03/28 20:26:33.826 [D]  read success, pid:0, offset:34836, topic:nginx_log
+
+2020/03/28 20:26:33.826 [D]  read success, pid:0, offset:34837, topic:nginx_log
+
+2020/03/28 20:26:33.827 [D]  read success, pid:0, offset:34838, topic:nginx_log
+
+2020/03/28 20:26:33.827 [D]  read success, pid:0, offset:34839, topic:nginx_log
+
+2020/03/28 20:26:33.829 [D]  read success, pid:0, offset:34840, topic:nginx_log
+
+2020/03/28 20:26:33.830 [D]  read success, pid:0, offset:34841, topic:nginx_log
+
+2020/03/28 20:26:33.830 [D]  read success, pid:0, offset:34842, topic:nginx_log
+
+2020/03/28 20:26:33.831 [D]  read success, pid:0, offset:34843, topic:nginx_log
+
+2020/03/28 20:26:33.831 [D]  read success, pid:0, offset:34844, topic:nginx_log
+
+2020/03/28 20:26:33.832 [D]  read success, pid:0, offset:34845, topic:nginx_log
+
+2020/03/28 20:26:33.832 [D]  read success, pid:0, offset:34846, topic:nginx_log
+
+2020/03/28 20:26:33.833 [D]  read success, pid:0, offset:34847, topic:nginx_log
+
+2020/03/28 20:26:33.833 [D]  read success, pid:0, offset:34848, topic:nginx_log
+
+2020/03/28 20:26:33.834 [D]  read success, pid:0, offset:34849, topic:nginx_log
+
+2020/03/28 20:26:33.835 [D]  read success, pid:0, offset:34850, topic:nginx_log
+
+2020/03/28 20:26:33.835 [D]  read success, pid:0, offset:34851, topic:nginx_log
+
+2020/03/28 20:26:33.835 [D]  read success, pid:0, offset:34852, topic:nginx_log
+
+2020/03/28 20:26:33.836 [D]  read success, pid:0, offset:34853, topic:nginx_log
+
+2020/03/28 20:26:33.836 [D]  read success, pid:0, offset:34854, topic:nginx_log
+
+2020/03/28 20:26:33.837 [D]  read success, pid:0, offset:34855, topic:nginx_log
+
+2020/03/28 20:26:33.837 [D]  read success, pid:0, offset:34856, topic:nginx_log
+
+2020/03/28 20:26:33.838 [D]  read success, pid:0, offset:34857, topic:nginx_log
+
+2020/03/28 20:26:33.838 [D]  read success, pid:0, offset:34858, topic:nginx_log
+
+2020/03/28 20:26:33.839 [D]  read success, pid:0, offset:34859, topic:nginx_log
+
+2020/03/28 20:26:33.839 [D]  read success, pid:0, offset:34860, topic:nginx_log
+
+2020/03/28 20:26:33.840 [D]  read success, pid:0, offset:34861, topic:nginx_log
+
+2020/03/28 20:26:33.840 [D]  read success, pid:0, offset:34862, topic:nginx_log
+
+2020/03/28 20:26:33.841 [D]  read success, pid:0, offset:34863, topic:nginx_log
+
+2020/03/28 20:26:33.841 [D]  read success, pid:0, offset:34864, topic:nginx_log
+
+2020/03/28 20:26:33.842 [D]  read success, pid:0, offset:34865, topic:nginx_log
+
+2020/03/28 20:26:33.842 [D]  read success, pid:0, offset:34866, topic:nginx_log
+
+2020/03/28 20:26:33.843 [D]  read success, pid:0, offset:34867, topic:nginx_log
+
+2020/03/28 20:26:33.844 [D]  read success, pid:0, offset:34868, topic:nginx_log
+
+2020/03/28 20:26:33.844 [D]  read success, pid:0, offset:34869, topic:nginx_log
+
+2020/03/28 20:26:33.845 [D]  read success, pid:0, offset:34870, topic:nginx_log
+
+2020/03/28 20:26:33.846 [D]  read success, pid:0, offset:34871, topic:nginx_log
+
+2020/03/28 20:26:33.846 [D]  read success, pid:0, offset:34872, topic:nginx_log
+
+2020/03/28 20:26:33.847 [D]  read success, pid:0, offset:34873, topic:nginx_log
+
+2020/03/28 20:26:33.847 [D]  read success, pid:0, offset:34874, topic:nginx_log
+
+2020/03/28 20:26:33.847 [D]  read success, pid:0, offset:34875, topic:nginx_log
+
+2020/03/28 20:26:33.848 [D]  read success, pid:0, offset:34876, topic:nginx_log
+
+2020/03/28 20:26:33.849 [D]  read success, pid:0, offset:34877, topic:nginx_log
+
+2020/03/28 20:26:33.849 [D]  read success, pid:0, offset:34878, topic:nginx_log
+
+2020/03/28 20:26:33.850 [D]  read success, pid:0, offset:34879, topic:nginx_log
+
+2020/03/28 20:26:33.850 [D]  read success, pid:0, offset:34880, topic:nginx_log
+
+2020/03/28 20:26:33.850 [D]  read success, pid:0, offset:34881, topic:nginx_log
+
+2020/03/28 20:26:33.851 [D]  read success, pid:0, offset:34882, topic:nginx_log
+
+2020/03/28 20:26:33.851 [D]  read success, pid:0, offset:34883, topic:nginx_log
+
+2020/03/28 20:26:33.852 [D]  read success, pid:0, offset:34884, topic:nginx_log
+
+2020/03/28 20:26:33.852 [D]  read success, pid:0, offset:34885, topic:nginx_log
+
+2020/03/28 20:26:33.852 [D]  read success, pid:0, offset:34886, topic:nginx_log
+
+2020/03/28 20:26:33.853 [D]  read success, pid:0, offset:34887, topic:nginx_log
+
+2020/03/28 20:26:33.853 [D]  read success, pid:0, offset:34888, topic:nginx_log
+
+2020/03/28 20:26:33.853 [D]  read success, pid:0, offset:34889, topic:nginx_log
+
+2020/03/28 20:26:33.854 [D]  read success, pid:0, offset:34890, topic:nginx_log
+
+2020/03/28 20:26:33.854 [D]  read success, pid:0, offset:34891, topic:nginx_log
+
+2020/03/28 20:26:33.854 [D]  read success, pid:0, offset:34892, topic:nginx_log
+
+2020/03/28 20:26:33.854 [D]  read success, pid:0, offset:34893, topic:nginx_log
+
+2020/03/28 20:26:33.855 [D]  read success, pid:0, offset:34894, topic:nginx_log
+
+2020/03/28 20:26:33.855 [D]  read success, pid:0, offset:34895, topic:nginx_log
+
+2020/03/28 20:26:33.856 [D]  read success, pid:0, offset:34896, topic:nginx_log
+
+2020/03/28 20:26:33.856 [D]  read success, pid:0, offset:34897, topic:nginx_log
+
+2020/03/28 20:26:33.856 [D]  read success, pid:0, offset:34898, topic:nginx_log
+
+2020/03/28 20:26:33.857 [D]  read success, pid:0, offset:34899, topic:nginx_log
+
+2020/03/28 20:26:33.857 [D]  read success, pid:0, offset:34900, topic:nginx_log
+
+2020/03/28 20:26:33.858 [D]  read success, pid:0, offset:34901, topic:nginx_log
+
+2020/03/28 20:26:33.858 [D]  read success, pid:0, offset:34902, topic:nginx_log
+
+2020/03/28 20:26:33.858 [D]  read success, pid:0, offset:34903, topic:nginx_log
+
+2020/03/28 20:26:33.859 [D]  read success, pid:0, offset:34904, topic:nginx_log
+
+2020/03/28 20:26:33.859 [D]  read success, pid:0, offset:34905, topic:nginx_log
+
+2020/03/28 20:26:33.860 [D]  read success, pid:0, offset:34906, topic:nginx_log
+
+2020/03/28 20:26:33.860 [D]  read success, pid:0, offset:34907, topic:nginx_log
+
+2020/03/28 20:26:33.861 [D]  read success, pid:0, offset:34908, topic:nginx_log
+
+2020/03/28 20:26:33.861 [D]  read success, pid:0, offset:34909, topic:nginx_log
+
+2020/03/28 20:26:33.862 [D]  read success, pid:0, offset:34910, topic:nginx_log
+
+2020/03/28 20:26:33.863 [D]  read success, pid:0, offset:34911, topic:nginx_log
+
+2020/03/28 20:26:33.863 [D]  read success, pid:0, offset:34912, topic:nginx_log
+
+2020/03/28 20:26:33.864 [D]  read success, pid:0, offset:34913, topic:nginx_log
+
+2020/03/28 20:26:33.864 [D]  read success, pid:0, offset:34914, topic:nginx_log
+
+2020/03/28 20:26:33.865 [D]  read success, pid:0, offset:34915, topic:nginx_log
+
+2020/03/28 20:26:33.865 [D]  read success, pid:0, offset:34916, topic:nginx_log
+
+2020/03/28 20:26:33.866 [D]  read success, pid:0, offset:34917, topic:nginx_log
+
+2020/03/28 20:26:33.866 [D]  read success, pid:0, offset:34918, topic:nginx_log
+
+2020/03/28 20:26:33.867 [D]  read success, pid:0, offset:34919, topic:nginx_log
+
+2020/03/28 20:26:33.867 [D]  read success, pid:0, offset:34920, topic:nginx_log
+
+2020/03/28 20:26:33.867 [D]  read success, pid:0, offset:34921, topic:nginx_log
+
+2020/03/28 20:26:33.868 [D]  read success, pid:0, offset:34922, topic:nginx_log
+
+2020/03/28 20:26:33.868 [D]  read success, pid:0, offset:34923, topic:nginx_log
+
+2020/03/28 20:26:33.869 [D]  read success, pid:0, offset:34924, topic:nginx_log
+
+2020/03/28 20:26:33.869 [D]  read success, pid:0, offset:34925, topic:nginx_log
+
+2020/03/28 20:26:33.870 [D]  read success, pid:0, offset:34926, topic:nginx_log
+
+2020/03/28 20:26:33.870 [D]  read success, pid:0, offset:34927, topic:nginx_log
+
+2020/03/28 20:26:33.870 [D]  read success, pid:0, offset:34928, topic:nginx_log
+
+2020/03/28 20:26:33.871 [D]  read success, pid:0, offset:34929, topic:nginx_log
+
+2020/03/28 20:26:33.871 [D]  read success, pid:0, offset:34930, topic:nginx_log
+
+2020/03/28 20:26:33.871 [D]  read success, pid:0, offset:34931, topic:nginx_log
+
+2020/03/28 20:26:33.872 [D]  read success, pid:0, offset:34932, topic:nginx_log
+
+2020/03/28 20:26:33.872 [D]  read success, pid:0, offset:34933, topic:nginx_log
+
+2020/03/28 20:26:33.873 [D]  read success, pid:0, offset:34934, topic:nginx_log
+
+2020/03/28 20:26:33.873 [D]  read success, pid:0, offset:34935, topic:nginx_log
+
+2020/03/28 20:26:33.874 [D]  read success, pid:0, offset:34936, topic:nginx_log
+
+2020/03/28 20:26:33.874 [D]  read success, pid:0, offset:34937, topic:nginx_log
+
+2020/03/28 20:26:33.875 [D]  read success, pid:0, offset:34938, topic:nginx_log
+
+2020/03/28 20:26:33.875 [D]  read success, pid:0, offset:34939, topic:nginx_log
+
+2020/03/28 20:26:33.875 [D]  read success, pid:0, offset:34940, topic:nginx_log
+
+2020/03/28 20:26:33.876 [D]  read success, pid:0, offset:34941, topic:nginx_log
+
+2020/03/28 20:26:33.876 [D]  read success, pid:0, offset:34942, topic:nginx_log
+
+2020/03/28 20:26:33.876 [D]  read success, pid:0, offset:34943, topic:nginx_log
+
+2020/03/28 20:26:33.878 [D]  read success, pid:0, offset:34944, topic:nginx_log
+
+2020/03/28 20:26:33.878 [D]  read success, pid:0, offset:34945, topic:nginx_log
+
+2020/03/28 20:26:33.879 [D]  read success, pid:0, offset:34946, topic:nginx_log
+
+2020/03/28 20:26:33.879 [D]  read success, pid:0, offset:34947, topic:nginx_log
+
+2020/03/28 20:26:33.880 [D]  read success, pid:0, offset:34948, topic:nginx_log
+
+2020/03/28 20:26:33.880 [D]  read success, pid:0, offset:34949, topic:nginx_log
+
+2020/03/28 20:26:33.881 [D]  read success, pid:0, offset:34950, topic:nginx_log
+
+2020/03/28 20:26:33.881 [D]  read success, pid:0, offset:34951, topic:nginx_log
+
+2020/03/28 20:26:33.882 [D]  read success, pid:0, offset:34952, topic:nginx_log
+
+2020/03/28 20:26:33.882 [D]  read success, pid:0, offset:34953, topic:nginx_log
+
+2020/03/28 20:26:33.883 [D]  read success, pid:0, offset:34954, topic:nginx_log
+
+2020/03/28 20:26:33.883 [D]  read success, pid:0, offset:34955, topic:nginx_log
+
+2020/03/28 20:26:33.884 [D]  read success, pid:0, offset:34956, topic:nginx_log
+
+2020/03/28 20:26:33.884 [D]  read success, pid:0, offset:34957, topic:nginx_log
+
+2020/03/28 20:26:33.885 [D]  read success, pid:0, offset:34958, topic:nginx_log
+
+2020/03/28 20:26:33.886 [D]  read success, pid:0, offset:34959, topic:nginx_log
+
+2020/03/28 20:26:33.887 [D]  read success, pid:0, offset:34960, topic:nginx_log
+
+2020/03/28 20:26:33.888 [D]  read success, pid:0, offset:34961, topic:nginx_log
+
+2020/03/28 20:26:33.888 [D]  read success, pid:0, offset:34962, topic:nginx_log
+
+2020/03/28 20:26:33.889 [D]  read success, pid:0, offset:34963, topic:nginx_log
+
+2020/03/28 20:26:33.889 [D]  read success, pid:0, offset:34964, topic:nginx_log
+
+2020/03/28 20:26:33.891 [D]  read success, pid:0, offset:34965, topic:nginx_log
+
+2020/03/28 20:26:33.891 [D]  read success, pid:0, offset:34966, topic:nginx_log
+
+2020/03/28 20:26:33.892 [D]  read success, pid:0, offset:34967, topic:nginx_log
+
+2020/03/28 20:26:33.892 [D]  read success, pid:0, offset:34968, topic:nginx_log
+
+2020/03/28 20:26:33.893 [D]  read success, pid:0, offset:34969, topic:nginx_log
+
+2020/03/28 20:26:33.894 [D]  read success, pid:0, offset:34970, topic:nginx_log
+
+2020/03/28 20:26:33.895 [D]  read success, pid:0, offset:34971, topic:nginx_log
+
+2020/03/28 20:26:33.895 [D]  read success, pid:0, offset:34972, topic:nginx_log
+
+2020/03/28 20:26:33.896 [D]  read success, pid:0, offset:34973, topic:nginx_log
+
+2020/03/28 20:26:33.896 [D]  read success, pid:0, offset:34974, topic:nginx_log
+
+2020/03/28 20:26:33.897 [D]  read success, pid:0, offset:34975, topic:nginx_log
+
+2020/03/28 20:26:33.897 [D]  read success, pid:0, offset:34976, topic:nginx_log
+
+2020/03/28 20:26:33.898 [D]  read success, pid:0, offset:34977, topic:nginx_log
+
+2020/03/28 20:26:33.898 [D]  read success, pid:0, offset:34978, topic:nginx_log
+
+2020/03/28 20:26:33.899 [D]  read success, pid:0, offset:34979, topic:nginx_log
+
+2020/03/28 20:26:33.899 [D]  read success, pid:0, offset:34980, topic:nginx_log
+
+2020/03/28 20:26:33.900 [D]  read success, pid:0, offset:34981, topic:nginx_log
+
+2020/03/28 20:26:33.900 [D]  read success, pid:0, offset:34982, topic:nginx_log
+
+2020/03/28 20:26:33.901 [D]  read success, pid:0, offset:34983, topic:nginx_log
+
+2020/03/28 20:26:33.901 [D]  read success, pid:0, offset:34984, topic:nginx_log
+
+2020/03/28 20:26:33.902 [D]  read success, pid:0, offset:34985, topic:nginx_log
+
+2020/03/28 20:26:33.902 [D]  read success, pid:0, offset:34986, topic:nginx_log
+
+2020/03/28 20:26:33.903 [D]  read success, pid:0, offset:34987, topic:nginx_log
+
+2020/03/28 20:26:33.904 [D]  read success, pid:0, offset:34988, topic:nginx_log
+
+2020/03/28 20:26:33.904 [D]  read success, pid:0, offset:34989, topic:nginx_log
+
+2020/03/28 20:26:33.905 [D]  read success, pid:0, offset:34990, topic:nginx_log
+
+2020/03/28 20:26:33.906 [D]  read success, pid:0, offset:34991, topic:nginx_log
+
+2020/03/28 20:26:33.907 [D]  read success, pid:0, offset:34992, topic:nginx_log
+
+2020/03/28 20:26:33.907 [D]  read success, pid:0, offset:34993, topic:nginx_log
+
+2020/03/28 20:26:33.907 [D]  read success, pid:0, offset:34994, topic:nginx_log
+
+2020/03/28 20:26:33.908 [D]  read success, pid:0, offset:34995, topic:nginx_log
+
+2020/03/28 20:26:33.908 [D]  read success, pid:0, offset:34996, topic:nginx_log
+
+2020/03/28 20:26:33.909 [D]  read success, pid:0, offset:34997, topic:nginx_log
+
+2020/03/28 20:26:33.909 [D]  read success, pid:0, offset:34998, topic:nginx_log
+
+2020/03/28 20:26:33.910 [D]  read success, pid:0, offset:34999, topic:nginx_log
+
+2020/03/28 20:26:33.911 [D]  read success, pid:0, offset:35000, topic:nginx_log
+
+2020/03/28 20:26:33.912 [D]  read success, pid:0, offset:35001, topic:nginx_log
+
+2020/03/28 20:26:33.912 [D]  read success, pid:0, offset:35002, topic:nginx_log
+
+2020/03/28 20:26:33.913 [D]  read success, pid:0, offset:35003, topic:nginx_log
+
+2020/03/28 20:26:33.913 [D]  read success, pid:0, offset:35004, topic:nginx_log
+
+2020/03/28 20:26:33.914 [D]  read success, pid:0, offset:35005, topic:nginx_log
+
+2020/03/28 20:26:33.914 [D]  read success, pid:0, offset:35006, topic:nginx_log
+
+2020/03/28 20:26:33.915 [D]  read success, pid:0, offset:35007, topic:nginx_log
+
+2020/03/28 20:26:33.915 [D]  read success, pid:0, offset:35008, topic:nginx_log
+
+2020/03/28 20:26:33.916 [D]  read success, pid:0, offset:35009, topic:nginx_log
+
+2020/03/28 20:26:33.916 [D]  read success, pid:0, offset:35010, topic:nginx_log
+
+2020/03/28 20:26:33.916 [D]  read success, pid:0, offset:35011, topic:nginx_log
+
+2020/03/28 20:26:33.917 [D]  read success, pid:0, offset:35012, topic:nginx_log
+
+2020/03/28 20:26:33.917 [D]  read success, pid:0, offset:35013, topic:nginx_log
+
+2020/03/28 20:26:33.918 [D]  read success, pid:0, offset:35014, topic:nginx_log
+
+2020/03/28 20:26:33.918 [D]  read success, pid:0, offset:35015, topic:nginx_log
+
+2020/03/28 20:26:33.919 [D]  read success, pid:0, offset:35016, topic:nginx_log
+
+2020/03/28 20:26:33.919 [D]  read success, pid:0, offset:35017, topic:nginx_log
+
+2020/03/28 20:26:33.920 [D]  read success, pid:0, offset:35018, topic:nginx_log
+
+2020/03/28 20:26:33.920 [D]  read success, pid:0, offset:35019, topic:nginx_log
+
+2020/03/28 20:26:33.921 [D]  read success, pid:0, offset:35020, topic:nginx_log
+
+2020/03/28 20:26:33.921 [D]  read success, pid:0, offset:35021, topic:nginx_log
+
+2020/03/28 20:26:33.922 [D]  read success, pid:0, offset:35022, topic:nginx_log
+
+2020/03/28 20:26:33.923 [D]  read success, pid:0, offset:35023, topic:nginx_log
+
+2020/03/28 20:26:33.923 [D]  read success, pid:0, offset:35024, topic:nginx_log
+
+2020/03/28 20:26:33.923 [D]  read success, pid:0, offset:35025, topic:nginx_log
+
+2020/03/28 20:26:33.924 [D]  read success, pid:0, offset:35026, topic:nginx_log
+
+2020/03/28 20:26:33.924 [D]  read success, pid:0, offset:35027, topic:nginx_log
+
+2020/03/28 20:26:33.925 [D]  read success, pid:0, offset:35028, topic:nginx_log
+
+2020/03/28 20:26:33.925 [D]  read success, pid:0, offset:35029, topic:nginx_log
+
+2020/03/28 20:26:33.926 [D]  read success, pid:0, offset:35030, topic:nginx_log
+
+2020/03/28 20:26:33.926 [D]  read success, pid:0, offset:35031, topic:nginx_log
+
+2020/03/28 20:26:33.928 [D]  read success, pid:0, offset:35032, topic:nginx_log
+
+2020/03/28 20:26:33.928 [D]  read success, pid:0, offset:35033, topic:nginx_log
+
+2020/03/28 20:26:33.929 [D]  read success, pid:0, offset:35034, topic:nginx_log
+
+2020/03/28 20:26:33.930 [D]  read success, pid:0, offset:35035, topic:nginx_log
+
+2020/03/28 20:26:33.930 [D]  read success, pid:0, offset:35036, topic:nginx_log
+
+2020/03/28 20:26:33.931 [D]  read success, pid:0, offset:35037, topic:nginx_log
+
+2020/03/28 20:26:33.931 [D]  read success, pid:0, offset:35038, topic:nginx_log
+
+2020/03/28 20:26:33.932 [D]  read success, pid:0, offset:35039, topic:nginx_log
+
+2020/03/28 20:26:33.932 [D]  read success, pid:0, offset:35040, topic:nginx_log
+
+2020/03/28 20:26:33.932 [D]  read success, pid:0, offset:35041, topic:nginx_log
+
+2020/03/28 20:26:33.933 [D]  read success, pid:0, offset:35042, topic:nginx_log
+
+2020/03/28 20:26:33.933 [D]  read success, pid:0, offset:35043, topic:nginx_log
+
+2020/03/28 20:26:33.934 [D]  read success, pid:0, offset:35044, topic:nginx_log
+
+2020/03/28 20:26:33.934 [D]  read success, pid:0, offset:35045, topic:nginx_log
+
+2020/03/28 20:26:33.935 [D]  read success, pid:0, offset:35046, topic:nginx_log
+
+2020/03/28 20:26:33.935 [D]  read success, pid:0, offset:35047, topic:nginx_log
+
+2020/03/28 20:26:33.936 [D]  read success, pid:0, offset:35048, topic:nginx_log
+
+2020/03/28 20:26:33.936 [D]  read success, pid:0, offset:35049, topic:nginx_log
+
+2020/03/28 20:26:33.937 [D]  read success, pid:0, offset:35050, topic:nginx_log
+
+2020/03/28 20:26:33.937 [D]  read success, pid:0, offset:35051, topic:nginx_log
+
+2020/03/28 20:26:33.938 [D]  read success, pid:0, offset:35052, topic:nginx_log
+
+2020/03/28 20:26:33.938 [D]  read success, pid:0, offset:35053, topic:nginx_log
+
+2020/03/28 20:26:33.939 [D]  read success, pid:0, offset:35054, topic:nginx_log
+
