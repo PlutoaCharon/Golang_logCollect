@@ -1,0 +1,190 @@
+2020/03/28 20:27:57.883 [D]  初始化日志模块成功
+2020/03/28 20:27:57.890 [D]  初始化Kafka成功
+2020/03/28 20:27:57.894 [D]  初始化Es成功
+2020/03/28 20:27:57.897 [W]  logTransfer 退出
+2020/03/28 20:29:17.109 [D]  初始化日志模块成功
+2020/03/28 20:29:17.118 [D]  初始化Kafka成功
+2020/03/28 20:29:17.120 [D]  初始化Es成功
+2020/03/28 20:29:25.518 [D]  Partition:0, Offset:153210, Key:, Value:2020/03/28 20:29:25.265 [D]  开始监控key: /backend/logagent/config/192.168.0.1
+2020/03/28 20:29:27.361 [D]  Partition:0, Offset:153211, Key:, Value:2020/03/28 20:29:25.265 [D]  开始监控key: /backend/logagent/config/169.254.30.148
+2020/03/28 20:29:27.531 [D]  Partition:0, Offset:153212, Key:, Value:2020/03/28 20:29:25.265 [D]  开始监控key: /backend/logagent/config/169.254.153.68
+2020/03/28 20:29:27.743 [D]  Partition:0, Offset:153213, Key:, Value:2020/03/28 20:29:25.266 [D]  开始监控key: /backend/logagent/config/192.168.0.11
+2020/03/28 20:29:27.870 [D]  Partition:0, Offset:153214, Key:, Value:2020/03/28 20:29:25.267 [D]  初始化Kafka producer成功,地址为: 0.0.0.0:9092
+2020/03/28 20:29:28.012 [D]  Partition:0, Offset:153215, Key:, Value:2020/03/28 20:29:25.267 [D]  初始化Kafka成功!
+2020/03/28 20:29:28.191 [D]  Partition:0, Offset:153216, Key:, Value:2020/03/28 20:29:25.518 [D]  read success, pid:0, offset:153210, topic:nginx_log
+2020/03/28 20:29:28.311 [D]  Partition:0, Offset:153217, Key:, Value:
+2020/03/28 20:29:28.456 [D]  Partition:0, Offset:153218, Key:, Value:2020/03/28 20:29:25.521 [D]  read success, pid:0, offset:153211, topic:nginx_log
+2020/03/28 20:29:28.600 [D]  Partition:0, Offset:153219, Key:, Value:
+2020/03/28 20:29:28.744 [D]  Partition:0, Offset:153220, Key:, Value:2020/03/28 20:29:25.522 [D]  read success, pid:0, offset:153212, topic:nginx_log
+2020/03/28 20:29:28.865 [D]  Partition:0, Offset:153221, Key:, Value:
+2020/03/28 20:29:29.010 [D]  Partition:0, Offset:153222, Key:, Value:2020/03/28 20:29:25.523 [D]  read success, pid:0, offset:153213, topic:nginx_log
+2020/03/28 20:29:29.131 [D]  Partition:0, Offset:153223, Key:, Value:
+2020/03/28 20:29:29.253 [D]  Partition:0, Offset:153224, Key:, Value:2020/03/28 20:29:25.523 [D]  read success, pid:0, offset:153214, topic:nginx_log
+2020/03/28 20:29:29.398 [D]  Partition:0, Offset:153225, Key:, Value:
+2020/03/28 20:29:29.574 [D]  Partition:0, Offset:153226, Key:, Value:2020/03/28 20:29:25.524 [D]  read success, pid:0, offset:153215, topic:nginx_log
+2020/03/28 20:29:29.730 [D]  Partition:0, Offset:153227, Key:, Value:
+2020/03/28 20:29:29.863 [D]  Partition:0, Offset:153228, Key:, Value:2020/03/28 20:29:25.768 [D]  read success, pid:0, offset:153216, topic:nginx_log
+2020/03/28 20:29:29.995 [D]  Partition:0, Offset:153229, Key:, Value:
+2020/03/28 20:29:30.139 [D]  Partition:0, Offset:153230, Key:, Value:2020/03/28 20:29:25.770 [D]  read success, pid:0, offset:153217, topic:nginx_log
+2020/03/28 20:29:30.260 [D]  Partition:0, Offset:153231, Key:, Value:
+2020/03/28 20:29:30.371 [D]  Partition:0, Offset:153232, Key:, Value:2020/03/28 20:29:25.772 [D]  read success, pid:0, offset:153218, topic:nginx_log
+2020/03/28 20:29:30.504 [D]  Partition:0, Offset:153233, Key:, Value:
+2020/03/28 20:29:30.626 [D]  Partition:0, Offset:153234, Key:, Value:2020/03/28 20:29:25.774 [D]  read success, pid:0, offset:153219, topic:nginx_log
+2020/03/28 20:29:30.786 [D]  Partition:0, Offset:153235, Key:, Value:
+2020/03/28 20:29:30.926 [D]  Partition:0, Offset:153236, Key:, Value:2020/03/28 20:29:25.774 [D]  read success, pid:0, offset:153220, topic:nginx_log
+2020/03/28 20:29:31.086 [D]  Partition:0, Offset:153237, Key:, Value:
+2020/03/28 20:29:31.259 [D]  Partition:0, Offset:153238, Key:, Value:2020/03/28 20:29:25.775 [D]  read success, pid:0, offset:153221, topic:nginx_log
+2020/03/28 20:29:31.420 [D]  Partition:0, Offset:153239, Key:, Value:
+2020/03/28 20:29:31.603 [D]  Partition:0, Offset:153240, Key:, Value:2020/03/28 20:29:25.776 [D]  read success, pid:0, offset:153222, topic:nginx_log
+2020/03/28 20:29:31.759 [D]  Partition:0, Offset:153241, Key:, Value:
+2020/03/28 20:29:31.919 [D]  Partition:0, Offset:153242, Key:, Value:2020/03/28 20:29:25.776 [D]  read success, pid:0, offset:153223, topic:nginx_log
+2020/03/28 20:29:32.070 [D]  Partition:0, Offset:153243, Key:, Value:
+2020/03/28 20:29:32.241 [D]  Partition:0, Offset:153244, Key:, Value:2020/03/28 20:29:25.777 [D]  read success, pid:0, offset:153224, topic:nginx_log
+2020/03/28 20:29:32.392 [D]  Partition:0, Offset:153245, Key:, Value:
+2020/03/28 20:29:32.530 [D]  Partition:0, Offset:153246, Key:, Value:2020/03/28 20:29:25.777 [D]  read success, pid:0, offset:153225, topic:nginx_log
+2020/03/28 20:29:32.692 [D]  Partition:0, Offset:153247, Key:, Value:
+2020/03/28 20:29:32.842 [D]  Partition:0, Offset:153248, Key:, Value:2020/03/28 20:29:25.777 [D]  read success, pid:0, offset:153226, topic:nginx_log
+2020/03/28 20:29:33.003 [D]  Partition:0, Offset:153249, Key:, Value:
+2020/03/28 20:29:33.185 [D]  Partition:0, Offset:153250, Key:, Value:2020/03/28 20:29:25.778 [D]  read success, pid:0, offset:153227, topic:nginx_log
+2020/03/28 20:29:33.339 [D]  Partition:0, Offset:153251, Key:, Value:
+2020/03/28 20:29:33.496 [D]  Partition:0, Offset:153252, Key:, Value:2020/03/28 20:29:26.018 [D]  read success, pid:0, offset:153228, topic:nginx_log
+2020/03/28 20:29:33.669 [D]  Partition:0, Offset:153253, Key:, Value:
+2020/03/28 20:29:33.853 [D]  Partition:0, Offset:153254, Key:, Value:2020/03/28 20:29:26.020 [D]  read success, pid:0, offset:153229, topic:nginx_log
+2020/03/28 20:29:34.003 [D]  Partition:0, Offset:153255, Key:, Value:
+2020/03/28 20:29:34.187 [D]  Partition:0, Offset:153256, Key:, Value:2020/03/28 20:29:26.021 [D]  read success, pid:0, offset:153230, topic:nginx_log
+2020/03/28 20:29:34.347 [D]  Partition:0, Offset:153257, Key:, Value:
+2020/03/28 20:29:34.497 [D]  Partition:0, Offset:153258, Key:, Value:2020/03/28 20:29:26.022 [D]  read success, pid:0, offset:153231, topic:nginx_log
+2020/03/28 20:29:34.714 [D]  Partition:0, Offset:153259, Key:, Value:
+2020/03/28 20:29:34.865 [D]  Partition:0, Offset:153260, Key:, Value:2020/03/28 20:29:26.024 [D]  read success, pid:0, offset:153232, topic:nginx_log
+2020/03/28 20:29:35.014 [D]  Partition:0, Offset:153261, Key:, Value:
+2020/03/28 20:29:35.186 [D]  Partition:0, Offset:153262, Key:, Value:2020/03/28 20:29:26.026 [D]  read success, pid:0, offset:153233, topic:nginx_log
+2020/03/28 20:29:35.347 [D]  Partition:0, Offset:153263, Key:, Value:
+2020/03/28 20:29:35.503 [D]  Partition:0, Offset:153264, Key:, Value:2020/03/28 20:29:26.026 [D]  read success, pid:0, offset:153234, topic:nginx_log
+2020/03/28 20:29:35.681 [D]  Partition:0, Offset:153265, Key:, Value:
+2020/03/28 20:29:36.151 [D]  Partition:0, Offset:153266, Key:, Value:2020/03/28 20:29:26.027 [D]  read success, pid:0, offset:153235, topic:nginx_log
+2020/03/28 20:29:36.311 [D]  Partition:0, Offset:153267, Key:, Value:
+2020/03/28 20:29:36.472 [D]  Partition:0, Offset:153268, Key:, Value:2020/03/28 20:29:26.027 [D]  read success, pid:0, offset:153236, topic:nginx_log
+2020/03/28 20:29:36.622 [D]  Partition:0, Offset:153269, Key:, Value:
+2020/03/28 20:29:36.784 [D]  Partition:0, Offset:153270, Key:, Value:2020/03/28 20:29:26.027 [D]  read success, pid:0, offset:153237, topic:nginx_log
+2020/03/28 20:29:36.923 [D]  Partition:0, Offset:153271, Key:, Value:
+2020/03/28 20:29:37.134 [D]  Partition:0, Offset:153272, Key:, Value:2020/03/28 20:29:26.028 [D]  read success, pid:0, offset:153238, topic:nginx_log
+2020/03/28 20:29:37.263 [D]  Partition:0, Offset:153273, Key:, Value:
+2020/03/28 20:29:37.425 [D]  Partition:0, Offset:153274, Key:, Value:2020/03/28 20:29:26.028 [D]  read success, pid:0, offset:153239, topic:nginx_log
+2020/03/28 20:29:37.563 [D]  Partition:0, Offset:153275, Key:, Value:
+2020/03/28 20:29:37.703 [D]  Partition:0, Offset:153276, Key:, Value:2020/03/28 20:29:26.029 [D]  read success, pid:0, offset:153240, topic:nginx_log
+2020/03/28 20:29:37.863 [D]  Partition:0, Offset:153277, Key:, Value:
+2020/03/28 20:29:38.013 [D]  Partition:0, Offset:153278, Key:, Value:2020/03/28 20:29:26.029 [D]  read success, pid:0, offset:153241, topic:nginx_log
+2020/03/28 20:29:38.163 [D]  Partition:0, Offset:153279, Key:, Value:
+2020/03/28 20:29:38.325 [D]  Partition:0, Offset:153280, Key:, Value:2020/03/28 20:29:26.029 [D]  read success, pid:0, offset:153242, topic:nginx_log
+2020/03/28 20:29:38.536 [D]  Partition:0, Offset:153281, Key:, Value:
+2020/03/28 20:29:38.764 [D]  Partition:0, Offset:153282, Key:, Value:2020/03/28 20:29:26.030 [D]  read success, pid:0, offset:153243, topic:nginx_log
+2020/03/28 20:29:38.994 [D]  Partition:0, Offset:153283, Key:, Value:
+2020/03/28 20:29:39.211 [D]  Partition:0, Offset:153284, Key:, Value:2020/03/28 20:29:26.030 [D]  read success, pid:0, offset:153244, topic:nginx_log
+2020/03/28 20:29:39.340 [D]  Partition:0, Offset:153285, Key:, Value:
+2020/03/28 20:29:39.499 [D]  Partition:0, Offset:153286, Key:, Value:2020/03/28 20:29:26.031 [D]  read success, pid:0, offset:153245, topic:nginx_log
+2020/03/28 20:29:39.661 [D]  Partition:0, Offset:153287, Key:, Value:
+2020/03/28 20:29:39.817 [D]  Partition:0, Offset:153288, Key:, Value:2020/03/28 20:29:26.031 [D]  read success, pid:0, offset:153246, topic:nginx_log
+2020/03/28 20:29:40.007 [D]  Partition:0, Offset:153289, Key:, Value:
+2020/03/28 20:29:40.212 [D]  Partition:0, Offset:153290, Key:, Value:2020/03/28 20:29:26.032 [D]  read success, pid:0, offset:153247, topic:nginx_log
+2020/03/28 20:29:40.385 [D]  Partition:0, Offset:153291, Key:, Value:
+2020/03/28 20:29:40.544 [D]  Partition:0, Offset:153292, Key:, Value:2020/03/28 20:29:26.032 [D]  read success, pid:0, offset:153248, topic:nginx_log
+2020/03/28 20:29:40.708 [D]  Partition:0, Offset:153293, Key:, Value:
+2020/03/28 20:29:40.866 [D]  Partition:0, Offset:153294, Key:, Value:2020/03/28 20:29:26.033 [D]  read success, pid:0, offset:153249, topic:nginx_log
+2020/03/28 20:29:41.026 [D]  Partition:0, Offset:153295, Key:, Value:
+2020/03/28 20:29:41.194 [D]  Partition:0, Offset:153296, Key:, Value:2020/03/28 20:29:26.033 [D]  read success, pid:0, offset:153250, topic:nginx_log
+2020/03/28 20:29:41.391 [D]  Partition:0, Offset:153297, Key:, Value:
+2020/03/28 20:29:41.591 [D]  Partition:0, Offset:153298, Key:, Value:2020/03/28 20:29:26.033 [D]  read success, pid:0, offset:153251, topic:nginx_log
+2020/03/28 20:29:41.784 [D]  Partition:0, Offset:153299, Key:, Value:
+2020/03/28 20:29:41.915 [D]  Partition:0, Offset:153300, Key:, Value:2020/03/28 20:29:26.271 [D]  read success, pid:0, offset:153252, topic:nginx_log
+2020/03/28 20:29:42.074 [D]  Partition:0, Offset:153301, Key:, Value:
+2020/03/28 20:29:42.257 [D]  Partition:0, Offset:153302, Key:, Value:2020/03/28 20:29:26.273 [D]  read success, pid:0, offset:153253, topic:nginx_log
+2020/03/28 20:29:42.407 [D]  Partition:0, Offset:153303, Key:, Value:
+2020/03/28 20:29:42.817 [D]  Partition:0, Offset:153304, Key:, Value:2020/03/28 20:29:26.274 [D]  read success, pid:0, offset:153254, topic:nginx_log
+2020/03/28 20:29:43.084 [D]  Partition:0, Offset:153305, Key:, Value:
+2020/03/28 20:29:43.378 [D]  Partition:0, Offset:153306, Key:, Value:2020/03/28 20:29:26.276 [D]  read success, pid:0, offset:153255, topic:nginx_log
+2020/03/28 20:29:43.531 [D]  Partition:0, Offset:153307, Key:, Value:
+2020/03/28 20:29:43.678 [D]  Partition:0, Offset:153308, Key:, Value:2020/03/28 20:29:26.276 [D]  read success, pid:0, offset:153256, topic:nginx_log
+2020/03/28 20:29:43.873 [D]  Partition:0, Offset:153309, Key:, Value:
+2020/03/28 20:29:44.010 [D]  Partition:0, Offset:153310, Key:, Value:2020/03/28 20:29:26.277 [D]  read success, pid:0, offset:153257, topic:nginx_log
+2020/03/28 20:29:44.172 [D]  Partition:0, Offset:153311, Key:, Value:
+2020/03/28 20:29:44.333 [D]  Partition:0, Offset:153312, Key:, Value:2020/03/28 20:29:26.277 [D]  read success, pid:0, offset:153258, topic:nginx_log
+2020/03/28 20:29:44.505 [D]  Partition:0, Offset:153313, Key:, Value:
+2020/03/28 20:29:44.655 [D]  Partition:0, Offset:153314, Key:, Value:2020/03/28 20:29:26.277 [D]  read success, pid:0, offset:153259, topic:nginx_log
+2020/03/28 20:29:44.819 [D]  Partition:0, Offset:153315, Key:, Value:
+2020/03/28 20:29:45.325 [D]  Partition:0, Offset:153316, Key:, Value:2020/03/28 20:29:26.278 [D]  read success, pid:0, offset:153260, topic:nginx_log
+2020/03/28 20:29:45.582 [D]  Partition:0, Offset:153317, Key:, Value:
+2020/03/28 20:29:45.800 [D]  Partition:0, Offset:153318, Key:, Value:2020/03/28 20:29:26.278 [D]  read success, pid:0, offset:153261, topic:nginx_log
+2020/03/28 20:29:45.988 [D]  Partition:0, Offset:153319, Key:, Value:
+2020/03/28 20:29:46.148 [D]  Partition:0, Offset:153320, Key:, Value:2020/03/28 20:29:26.278 [D]  read success, pid:0, offset:153262, topic:nginx_log
+2020/03/28 20:29:46.310 [D]  Partition:0, Offset:153321, Key:, Value:
+2020/03/28 20:29:46.514 [D]  Partition:0, Offset:153322, Key:, Value:2020/03/28 20:29:26.279 [D]  read success, pid:0, offset:153263, topic:nginx_log
+2020/03/28 20:29:46.686 [D]  Partition:0, Offset:153323, Key:, Value:
+2020/03/28 20:29:46.953 [D]  Partition:0, Offset:153324, Key:, Value:2020/03/28 20:29:26.279 [D]  read success, pid:0, offset:153264, topic:nginx_log
+2020/03/28 20:29:47.082 [D]  Partition:0, Offset:153325, Key:, Value:
+2020/03/28 20:29:47.230 [D]  Partition:0, Offset:153326, Key:, Value:2020/03/28 20:29:26.280 [D]  read success, pid:0, offset:153265, topic:nginx_log
+2020/03/28 20:29:47.416 [D]  Partition:0, Offset:153327, Key:, Value:
+2020/03/28 20:29:47.574 [D]  Partition:0, Offset:153328, Key:, Value:2020/03/28 20:29:26.280 [D]  read success, pid:0, offset:153266, topic:nginx_log
+2020/03/28 20:29:47.736 [D]  Partition:0, Offset:153329, Key:, Value:
+2020/03/28 20:29:47.930 [D]  Partition:0, Offset:153330, Key:, Value:2020/03/28 20:29:26.280 [D]  read success, pid:0, offset:153267, topic:nginx_log
+2020/03/28 20:29:48.180 [D]  Partition:0, Offset:153331, Key:, Value:
+2020/03/28 20:29:48.504 [D]  Partition:0, Offset:153332, Key:, Value:2020/03/28 20:29:26.281 [D]  read success, pid:0, offset:153268, topic:nginx_log
+2020/03/28 20:29:48.643 [D]  Partition:0, Offset:153333, Key:, Value:
+2020/03/28 20:29:48.805 [D]  Partition:0, Offset:153334, Key:, Value:2020/03/28 20:29:26.282 [D]  read success, pid:0, offset:153269, topic:nginx_log
+2020/03/28 20:29:48.997 [D]  Partition:0, Offset:153335, Key:, Value:
+2020/03/28 20:29:49.126 [D]  Partition:0, Offset:153336, Key:, Value:2020/03/28 20:29:26.282 [D]  read success, pid:0, offset:153270, topic:nginx_log
+2020/03/28 20:29:49.254 [D]  Partition:0, Offset:153337, Key:, Value:
+2020/03/28 20:29:49.438 [D]  Partition:0, Offset:153338, Key:, Value:2020/03/28 20:29:26.283 [D]  read success, pid:0, offset:153271, topic:nginx_log
+2020/03/28 20:29:49.598 [D]  Partition:0, Offset:153339, Key:, Value:
+2020/03/28 20:29:49.770 [D]  Partition:0, Offset:153340, Key:, Value:2020/03/28 20:29:26.283 [D]  read success, pid:0, offset:153272, topic:nginx_log
+2020/03/28 20:29:49.953 [D]  Partition:0, Offset:153341, Key:, Value:
+2020/03/28 20:29:50.125 [D]  Partition:0, Offset:153342, Key:, Value:2020/03/28 20:29:26.283 [D]  read success, pid:0, offset:153273, topic:nginx_log
+2020/03/28 20:29:50.274 [D]  Partition:0, Offset:153343, Key:, Value:
+2020/03/28 20:29:50.447 [D]  Partition:0, Offset:153344, Key:, Value:2020/03/28 20:29:26.284 [D]  read success, pid:0, offset:153274, topic:nginx_log
+2020/03/28 20:29:50.609 [D]  Partition:0, Offset:153345, Key:, Value:
+2020/03/28 20:29:50.772 [D]  Partition:0, Offset:153346, Key:, Value:2020/03/28 20:29:26.284 [D]  read success, pid:0, offset:153275, topic:nginx_log
+2020/03/28 20:29:50.929 [D]  Partition:0, Offset:153347, Key:, Value:
+2020/03/28 20:29:51.083 [D]  Partition:0, Offset:153348, Key:, Value:2020/03/28 20:29:26.285 [D]  read success, pid:0, offset:153276, topic:nginx_log
+2020/03/28 20:29:51.250 [D]  Partition:0, Offset:153349, Key:, Value:
+2020/03/28 20:29:51.411 [D]  Partition:0, Offset:153350, Key:, Value:2020/03/28 20:29:26.285 [D]  read success, pid:0, offset:153277, topic:nginx_log
+2020/03/28 20:29:51.562 [D]  Partition:0, Offset:153351, Key:, Value:
+2020/03/28 20:29:51.722 [D]  Partition:0, Offset:153352, Key:, Value:2020/03/28 20:29:26.286 [D]  read success, pid:0, offset:153278, topic:nginx_log
+2020/03/28 20:29:51.864 [D]  Partition:0, Offset:153353, Key:, Value:
+2020/03/28 20:29:52.052 [D]  Partition:0, Offset:153354, Key:, Value:2020/03/28 20:29:26.286 [D]  read success, pid:0, offset:153279, topic:nginx_log
+2020/03/28 20:29:52.303 [D]  Partition:0, Offset:153355, Key:, Value:
+2020/03/28 20:29:52.503 [D]  Partition:0, Offset:153356, Key:, Value:2020/03/28 20:29:26.287 [D]  read success, pid:0, offset:153280, topic:nginx_log
+2020/03/28 20:29:52.725 [D]  Partition:0, Offset:153357, Key:, Value:
+2020/03/28 20:29:52.911 [D]  Partition:0, Offset:153358, Key:, Value:2020/03/28 20:29:26.287 [D]  read success, pid:0, offset:153281, topic:nginx_log
+2020/03/28 20:29:53.049 [D]  Partition:0, Offset:153359, Key:, Value:
+2020/03/28 20:29:53.211 [D]  Partition:0, Offset:153360, Key:, Value:2020/03/28 20:29:26.288 [D]  read success, pid:0, offset:153282, topic:nginx_log
+2020/03/28 20:29:53.383 [D]  Partition:0, Offset:153361, Key:, Value:
+2020/03/28 20:29:53.579 [D]  Partition:0, Offset:153362, Key:, Value:2020/03/28 20:29:26.288 [D]  read success, pid:0, offset:153283, topic:nginx_log
+2020/03/28 20:29:53.779 [D]  Partition:0, Offset:153363, Key:, Value:
+2020/03/28 20:29:53.942 [D]  Partition:0, Offset:153364, Key:, Value:2020/03/28 20:29:26.289 [D]  read success, pid:0, offset:153284, topic:nginx_log
+2020/03/28 20:29:54.069 [D]  Partition:0, Offset:153365, Key:, Value:
+2020/03/28 20:29:54.236 [D]  Partition:0, Offset:153366, Key:, Value:2020/03/28 20:29:26.289 [D]  read success, pid:0, offset:153285, topic:nginx_log
+2020/03/28 20:29:54.717 [D]  Partition:0, Offset:153367, Key:, Value:
+2020/03/28 20:29:54.918 [D]  Partition:0, Offset:153368, Key:, Value:2020/03/28 20:29:26.289 [D]  read success, pid:0, offset:153286, topic:nginx_log
+2020/03/28 20:29:55.119 [D]  Partition:0, Offset:153369, Key:, Value:
+2020/03/28 20:29:55.291 [D]  Partition:0, Offset:153370, Key:, Value:2020/03/28 20:29:26.290 [D]  read success, pid:0, offset:153287, topic:nginx_log
+2020/03/28 20:29:55.463 [D]  Partition:0, Offset:153371, Key:, Value:
+2020/03/28 20:29:55.613 [D]  Partition:0, Offset:153372, Key:, Value:2020/03/28 20:29:26.290 [D]  read success, pid:0, offset:153288, topic:nginx_log
+2020/03/28 20:29:55.812 [D]  Partition:0, Offset:153373, Key:, Value:
+2020/03/28 20:29:55.974 [D]  Partition:0, Offset:153374, Key:, Value:2020/03/28 20:29:26.291 [D]  read success, pid:0, offset:153289, topic:nginx_log
+2020/03/28 20:29:56.152 [D]  Partition:0, Offset:153375, Key:, Value:
+2020/03/28 20:29:56.302 [D]  Partition:0, Offset:153376, Key:, Value:2020/03/28 20:29:26.291 [D]  read success, pid:0, offset:153290, topic:nginx_log
+2020/03/28 20:29:56.506 [D]  Partition:0, Offset:153377, Key:, Value:
+2020/03/28 20:29:56.667 [D]  Partition:0, Offset:153378, Key:, Value:2020/03/28 20:29:26.291 [D]  read success, pid:0, offset:153291, topic:nginx_log
+2020/03/28 20:29:56.839 [D]  Partition:0, Offset:153379, Key:, Value:
+2020/03/28 20:29:57.034 [D]  Partition:0, Offset:153380, Key:, Value:2020/03/28 20:29:26.293 [D]  read success, pid:0, offset:153292, topic:nginx_log
+2020/03/28 20:29:57.194 [D]  Partition:0, Offset:153381, Key:, Value:
+2020/03/28 20:29:57.345 [D]  Partition:0, Offset:153382, Key:, Value:2020/03/28 20:29:26.295 [D]  read success, pid:0, offset:153293, topic:nginx_log
+2020/03/28 20:29:57.517 [D]  Partition:0, Offset:153383, Key:, Value:
+2020/03/28 20:29:57.679 [D]  Partition:0, Offset:153384, Key:, Value:2020/03/28 20:29:26.295 [D]  read success, pid:0, offset:153294, topic:nginx_log
+2020/03/28 20:29:57.860 [D]  Partition:0, Offset:153385, Key:, Value:
+2020/03/28 20:29:58.032 [D]  Partition:0, Offset:153386, Key:, Value:2020/03/28 20:29:26.298 [D]  read success, pid:0, offset:153295, topic:nginx_log
+2020/03/28 20:29:58.234 [D]  Partition:0, Offset:153387, Key:, Value:
+2020/03/28 20:29:58.406 [D]  Partition:0, Offset:153388, Key:, Value:2020/03/28 20:29:26.298 [D]  read success, pid:0, offset:153296, topic:nginx_log
+2020/03/28 20:29:58.567 [D]  Partition:0, Offset:153389, Key:, Value:
+2020/03/28 20:29:58.749 [D]  Partition:0, Offset:153390, Key:, Value:2020/03/28 20:29:26.299 [D]  read success, pid:0, offset:153297, topic:nginx_log
+2020/03/28 20:29:58.900 [D]  Partition:0, Offset:153391, Key:, Value:
+2020/03/28 20:29:59.194 [D]  Partition:0, Offset:153392, Key:, Value:2020/03/28 20:29:26.299 [D]  read success, pid:0, offset:153298, topic:nginx_log
