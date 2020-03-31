@@ -73,4 +73,45 @@ logTransfer负责从Kafka读取日志，写入到Elasticsearch中
 
 ## logBeegoWeb 
 
-更新ing
+http://localhost:8080/index
+
+项目管理:
+
+![](https://pic.downk.cc/item/5e82f87e504f4bcb04068fc6.jpg)
+
+项目申请:
+
+![](https://pic.downk.cc/item/5e82f8e1504f4bcb0406f543.jpg)
+
+
+日志列表:
+
+![](https://pic.downk.cc/item/5e82f903504f4bcb04070eac.jpg)
+
+
+日志申请:
+![](https://pic.downk.cc/item/5e82f926504f4bcb04072767.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
