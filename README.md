@@ -1,7 +1,7 @@
 # 海量日志收集服务logCollect 
 
 ## 项目架构图
-![项目架构图](https://pic.downk.cc/item/5e7f4609504f4bcb047fe140.jpg)
+![项目架构图](./Images/1.png)
 
 ## 说明
 logAgent从通过tailf从Etcd中获取要收集的日志信息从业务服务器读取日志信息，发往Kafka
@@ -15,7 +15,7 @@ logTransfer负责从Kafka读取日志，写入到Elasticsearch中
 -------
 
 ## logAgent
-![logAgent架构](https://pic.downk.cc/item/5e7ca7f0504f4bcb04c02c6b.jpg)
+![logAgent架构](./Images/2.png)
 
 ### logAgent主要实现的功能
 - 可以自行配置要收集的日志文件
@@ -50,11 +50,11 @@ logTransfer负责从Kafka读取日志，写入到Elasticsearch中
 
 项目架构图:
 
-![logTransfer架构](https://pic.downk.cc/item/5e802310504f4bcb040062cd.jpg)
+![logTransfer架构](./Images/3.png)
 
 项目逻辑图: 
 
-![logTransfer架构](https://pic.downk.cc/item/5e8022d8504f4bcb04003b10.jpg)
+![logTransfer架构](./Images/4.png)
 
 ### logTransfer主要实现的功能
 
@@ -77,20 +77,20 @@ http://localhost:8080/index
 
 项目管理:
 
-![](https://pic.downk.cc/item/5e82f87e504f4bcb04068fc6.jpg)
+![](./Images/5.png)
 
 项目申请:
 
-![](https://pic.downk.cc/item/5e82f8e1504f4bcb0406f543.jpg)
+![](./Images/6.png)
 
 
 日志列表:
 
-![](https://pic.downk.cc/item/5e82f903504f4bcb04070eac.jpg)
+![](./Images/7.png)
 
 
 日志申请:
-![](https://pic.downk.cc/item/5e82f926504f4bcb04072767.jpg)
+![](./Images/8.png)
 
 
 
